@@ -1,0 +1,18 @@
+{
+  "string":
+    {
+      "Conversor":""
+    }
+  ,
+  "bool":{
+    "Conversor":"bool.Parse"
+  }
+  ,
+  "int":{
+    "Conversor":"Int32.Parse"
+  },
+  "float":{
+    "Texto":"",
+    "Conversor":"float.Parse"
+  }
+}

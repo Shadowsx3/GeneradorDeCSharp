@@ -1,0 +1,120 @@
+[
+  {
+    "Objeto": "Habitacion",
+    "Propiedades": [
+      {
+        "Nombre": "Tipo",
+        "Refiere": "el tipo",
+        "Acceso": "_",
+        "Lista": 0,
+        "Constructor": true,
+        "Tipo": "string",
+        "Default": "'Cuarto'"
+      },
+      {
+        "Nombre": "Dimensiones",
+        "Refiere": "otra dimensiones",
+        "Acceso": "_",
+        "Lista": 3,
+        "Constructor": false,
+        "Tipo": "float",
+        "Default": "5,5,5"
+      },
+      {
+        "Nombre": "Color",
+        "Refiere": "el color",
+        "Acceso": "_",
+        "Lista": 0,
+        "Constructor": false,
+        "Tipo": "string",
+        "Default": ""
+      }
+    ]
+  },
+  {
+    "Objeto": "Propiedad",
+    "Propiedades": [
+      {
+        "Nombre": "Habitaciones",
+        "Refiere": "",
+        "Acceso": "_",
+        "Lista": -1,
+        "Constructor": false,
+        "Tipo": "Habitacion",
+        "Default": "'Cuarto'"
+      },
+      {
+        "Nombre": "Ubicacion",
+        "Refiere": "la ubicacion",
+        "Acceso": "_",
+        "Lista": 0,
+        "Constructor": true,
+        "Tipo": "string",
+        "Default": "'Salto'"
+      },
+      {
+        "Nombre": "Dimensiones_Patio",
+        "Refiere": "la dimension una dimension del patio",
+        "Acceso": "_",
+        "Lista": 2,
+        "Constructor": false,
+        "Tipo": "float",
+        "Default": "5,5,5"
+      },
+      {
+        "Nombre": "Disponible_Venta",
+        "Refiere": "si está a la venta",
+        "Acceso": "_",
+        "Lista": 0,
+        "Constructor": true,
+        "Tipo": "bool",
+        "Default": "false"
+      },
+      {
+        "Nombre": "Vendida",
+        "Refiere": "si está vendida",
+        "Acceso": "_",
+        "Lista": 0,
+        "Constructor": true,
+        "Tipo": "bool",
+        "Default": "false"
+      },
+      {
+        "Nombre": "Precio_Venta",
+        "Refiere": "el precio de venta",
+        "Acceso": "_",
+        "Lista": 0,
+        "Constructor": true,
+        "Tipo": "int",
+        "Default": "555"
+      },
+      {
+        "Nombre": "Disponible_Alquiler",
+        "Refiere": "si está disponible para alquilar",
+        "Acceso": "_",
+        "Lista": 0,
+        "Constructor": true,
+        "Tipo": "bool",
+        "Default": "true"
+      },
+      {
+        "Nombre": "Alquilada",
+        "Refiere": "si está alquilada",
+        "Acceso": "_",
+        "Lista": 0,
+        "Constructor": true,
+        "Tipo": "bool",
+        "Default": "false"
+      },
+      {
+        "Nombre": "Precio_Alquiler",
+        "Refiere": "el precio de alquiler",
+        "Acceso": "_",
+        "Lista": 0,
+        "Constructor": true,
+        "Tipo": "int",
+        "Default": "555"
+      }
+    ]
+  }
+  ]
