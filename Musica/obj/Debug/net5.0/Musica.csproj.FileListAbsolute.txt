@@ -1,0 +1,16 @@
+C:\Users\manue\Desktop\Programacion\Musica\bin\Debug\net5.0\Musica.exe
+C:\Users\manue\Desktop\Programacion\Musica\bin\Debug\net5.0\Musica.deps.json
+C:\Users\manue\Desktop\Programacion\Musica\bin\Debug\net5.0\Musica.runtimeconfig.json
+C:\Users\manue\Desktop\Programacion\Musica\bin\Debug\net5.0\Musica.runtimeconfig.dev.json
+C:\Users\manue\Desktop\Programacion\Musica\bin\Debug\net5.0\Musica.dll
+C:\Users\manue\Desktop\Programacion\Musica\bin\Debug\net5.0\ref\Musica.dll
+C:\Users\manue\Desktop\Programacion\Musica\bin\Debug\net5.0\Musica.pdb
+C:\Users\manue\Desktop\Programacion\Musica\obj\Debug\net5.0\Musica.csproj.AssemblyReference.cache
+C:\Users\manue\Desktop\Programacion\Musica\obj\Debug\net5.0\Musica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\manue\Desktop\Programacion\Musica\obj\Debug\net5.0\Musica.AssemblyInfoInputs.cache
+C:\Users\manue\Desktop\Programacion\Musica\obj\Debug\net5.0\Musica.AssemblyInfo.cs
+C:\Users\manue\Desktop\Programacion\Musica\obj\Debug\net5.0\Musica.csproj.CoreCompileInputs.cache
+C:\Users\manue\Desktop\Programacion\Musica\obj\Debug\net5.0\Musica.dll
+C:\Users\manue\Desktop\Programacion\Musica\obj\Debug\net5.0\ref\Musica.dll
+C:\Users\manue\Desktop\Programacion\Musica\obj\Debug\net5.0\Musica.pdb
+C:\Users\manue\Desktop\Programacion\Musica\obj\Debug\net5.0\Musica.genruntimeconfig.cache
