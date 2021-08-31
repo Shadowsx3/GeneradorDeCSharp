@@ -1,0 +1,9 @@
+C:\Users\manue\Desktop\Final\GeneradorDeCSharp\App1\bin\Debug\App1.exe.config
+C:\Users\manue\Desktop\Final\GeneradorDeCSharp\App1\bin\Debug\App1.exe
+C:\Users\manue\Desktop\Final\GeneradorDeCSharp\App1\bin\Debug\App1.pdb
+C:\Users\manue\Desktop\Final\GeneradorDeCSharp\App1\obj\Debug\App1.csproj.AssemblyReference.cache
+C:\Users\manue\Desktop\Final\GeneradorDeCSharp\App1\obj\Debug\App1.Properties.Resources.resources
+C:\Users\manue\Desktop\Final\GeneradorDeCSharp\App1\obj\Debug\App1.csproj.GenerateResource.cache
+C:\Users\manue\Desktop\Final\GeneradorDeCSharp\App1\obj\Debug\App1.csproj.CoreCompileInputs.cache
+C:\Users\manue\Desktop\Final\GeneradorDeCSharp\App1\obj\Debug\App1.exe
+C:\Users\manue\Desktop\Final\GeneradorDeCSharp\App1\obj\Debug\App1.pdb
