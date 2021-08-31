@@ -91,6 +91,7 @@ class Estudio:
         espacio = actual//3
         cadena += f'\n|{"Japones".center(espacio-2)}|{"Pronunciation".center(espacio)}|{"Spanish".center(espacio)}|'
         for i in palabras.values():
+            cadena += f'\n{cuadro}'
             cadena += f'\n|{i["Japones"].center(espacio-len(i["Japones"]))}|{i["Pronunciation"].center(espacio)}|{i["Spanish"].center(espacio)}|'
         cadena += f'\n{cuadro}'
         return cadena
