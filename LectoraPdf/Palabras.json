@@ -1,4 +1,1539 @@
 {
+    "いけばな": {
+        "Japones": "いけばな",
+        "Pronunciation": "ikebana",
+        "Spanish": "arreglo floral"
+    },
+    "うた": {
+        "Japones": "うた",
+        "Pronunciation": "uta",
+        "Spanish": "canción"
+    },
+    "え": {
+        "Japones": "え",
+        "Pronunciation": "e",
+        "Spanish": "pintura / cuadro"
+    },
+    "えいが": {
+        "Japones": "えいが",
+        "Pronunciation": "eega",
+        "Spanish": "cine / película"
+    },
+    "おりがみ": {
+        "Japones": "おりがみ",
+        "Pronunciation": "origami",
+        "Spanish": "origami (papiroflexia) "
+    },
+    "おんがく": {
+        "Japones": "おんがく",
+        "Pronunciation": "ongaku",
+        "Spanish": "música"
+    },
+    "かきます": {
+        "Japones": "かきます",
+        "Pronunciation": "kakimasu",
+        "Spanish": "escribir"
+    },
+    "がいこくご": {
+        "Japones": "がいこくご",
+        "Pronunciation": "gaikokugo",
+        "Spanish": "lengua extranjera / idioma extranjero"
+    },
+    "ききます": {
+        "Japones": "ききます",
+        "Pronunciation": "kikimasu",
+        "Spanish": "oir / escuchar"
+    },
+    "さどう": {
+        "Japones": "さどう",
+        "Pronunciation": "sadoo",
+        "Spanish": "ceremonia del té"
+    },
+    "さんぽ": {
+        "Japones": "さんぽ",
+        "Pronunciation": "sanpo",
+        "Spanish": "paseo"
+    },
+    "しゅみ": {
+        "Japones": "しゅみ",
+        "Pronunciation": "shumi",
+        "Spanish": "afición / hobby"
+    },
+    "しょうせつ": {
+        "Japones": "しょうせつ",
+        "Pronunciation": "shoosetsu",
+        "Spanish": "novela"
+    },
+    "じゅうどう": {
+        "Japones": "じゅうどう",
+        "Pronunciation": "juudoo",
+        "Spanish": "judo"
+    },
+    "ぜんぜん": {
+        "Japones": "ぜんぜん",
+        "Pronunciation": "zenzen",
+        "Spanish": "nada"
+    },
+    "そと": {
+        "Japones": "そと",
+        "Pronunciation": "soto",
+        "Spanish": "fuera / exterior / al aire libre"
+    },
+    "だいすき（な）": {
+        "Japones": "だいすき（な）",
+        "Pronunciation": "daisuki(na)",
+        "Spanish": "encantar / gustar mucho"
+    },
+    "ときどき": {
+        "Japones": "ときどき",
+        "Pronunciation": "tokidoki",
+        "Spanish": "a veces"
+    },
+    "とります": {
+        "Japones": "とります",
+        "Pronunciation": "torimasu",
+        "Spanish": "tomar / sacar (fotos)"
+    },
+    "どくしょ": {
+        "Japones": "どくしょ",
+        "Pronunciation": "dokusho",
+        "Spanish": "lectura / leer"
+    },
+    "どんな": {
+        "Japones": "どんな",
+        "Pronunciation": "donna",
+        "Spanish": "qué tipo de..."
+    },
+    "はいく": {
+        "Japones": "はいく",
+        "Pronunciation": "haiku",
+        "Spanish": "haiku"
+    },
+    "ひ": {
+        "Japones": "ひ",
+        "Pronunciation": "hi",
+        "Spanish": "día / fecha"
+    },
+    "ぶんがく": {
+        "Japones": "ぶんがく",
+        "Pronunciation": "bungaku",
+        "Spanish": "literatura"
+    },
+    "みます": {
+        "Japones": "みます",
+        "Pronunciation": "mimasu",
+        "Spanish": "ver / mirar"
+    },
+    "やきゅう": {
+        "Japones": "やきゅう",
+        "Pronunciation": "yakyuu",
+        "Spanish": "béisbol"
+    },
+    "ゆっくりします": {
+        "Japones": "ゆっくりします",
+        "Pronunciation": "yukkuri-shimasu",
+        "Spanish": "relajarse / ponerse cómodo"
+    },
+    "れんあい": {
+        "Japones": "れんあい",
+        "Pronunciation": "ren'ai",
+        "Spanish": "romance / amor"
+    },
+    "アクション": {
+        "Japones": "アクション",
+        "Pronunciation": "akushon",
+        "Spanish": "acción"
+    },
+    "アニメ": {
+        "Japones": "アニメ",
+        "Pronunciation": "anime",
+        "Spanish": "anime / dibujos animados"
+    },
+    "ギター": {
+        "Japones": "ギター",
+        "Pronunciation": "gitaa",
+        "Spanish": "guitarra"
+    },
+    "クラシック": {
+        "Japones": "クラシック",
+        "Pronunciation": "kurashikku",
+        "Spanish": "música clásica"
+    },
+    "コメディ": {
+        "Japones": "コメディ",
+        "Pronunciation": "komedhi",
+        "Spanish": "comedia"
+    },
+    "サッカー": {
+        "Japones": "サッカー",
+        "Pronunciation": "sakkaa",
+        "Spanish": "fútbol"
+    },
+    "ジャズ": {
+        "Japones": "ジャズ",
+        "Pronunciation": "jazu",
+        "Spanish": "jazz"
+    },
+    "スポーツ": {
+        "Japones": "スポーツ",
+        "Pronunciation": "supootsu",
+        "Spanish": "deportes"
+    },
+    "ダンス": {
+        "Japones": "ダンス",
+        "Pronunciation": "dansu",
+        "Spanish": "baile / danza"
+    },
+    "ピアノ": {
+        "Japones": "ピアノ",
+        "Pronunciation": "piano",
+        "Spanish": "piano"
+    },
+    "ファンタジー": {
+        "Japones": "ファンタジー",
+        "Pronunciation": "fantajii",
+        "Spanish": "fantasía"
+    },
+    "ホラー": {
+        "Japones": "ホラー",
+        "Pronunciation": "horaa",
+        "Spanish": "horror / terror"
+    },
+    "ポップス": {
+        "Japones": "ポップス",
+        "Pronunciation": "poppusu",
+        "Spanish": "música pop"
+    },
+    "マンガ": {
+        "Japones": "マンガ",
+        "Pronunciation": "manga",
+        "Spanish": "manga / cómic / historieta"
+    },
+    "ミステリー": {
+        "Japones": "ミステリー",
+        "Pronunciation": "misuterii",
+        "Spanish": "misterio"
+    },
+    "ロック": {
+        "Japones": "ロック",
+        "Pronunciation": "rokku",
+        "Spanish": "rock"
+    },
+    "～ねん": {
+        "Japones": "～ねん",
+        "Pronunciation": "~nen",
+        "Spanish": "año"
+    },
+    "Jポップ": {
+        "Japones": "Jポップ",
+        "Pronunciation": "J-poppu",
+        "Spanish": "música pop japonesa"
+    },
+    "いいですね": {
+        "Japones": "いいですね",
+        "Pronunciation": "ii desu ne",
+        "Spanish": "Suena bien. / Bueno. "
+    },
+    "いきましょう": {
+        "Japones": "いきましょう",
+        "Pronunciation": "ikimashoo",
+        "Spanish": "Vamos."
+    },
+    "いっしょに": {
+        "Japones": "いっしょに",
+        "Pronunciation": "issho ni",
+        "Spanish": "juntos"
+    },
+    "えん": {
+        "Japones": "えん",
+        "Pronunciation": "en",
+        "Spanish": "yen"
+    },
+    "かぶき": {
+        "Japones": "かぶき",
+        "Pronunciation": "kabuki",
+        "Spanish": "kabuki"
+    },
+    "きもの": {
+        "Japones": "きもの",
+        "Pronunciation": "kimono",
+        "Spanish": "quimono"
+    },
+    "ざんねんです": {
+        "Japones": "ざんねんです",
+        "Pronunciation": "zannen desu",
+        "Spanish": "Lo siento."
+    },
+    "じゃあ": {
+        "Japones": "じゃあ",
+        "Pronunciation": "jaa",
+        "Spanish": "entonces"
+    },
+    "すもう": {
+        "Japones": "すもう",
+        "Pronunciation": "sumoo",
+        "Spanish": "sumo"
+    },
+    "たいこ": {
+        "Japones": "たいこ",
+        "Pronunciation": "taiko",
+        "Spanish": "taiko (tambor japonés)"
+    },
+    "たのしみです": {
+        "Japones": "たのしみです",
+        "Pronunciation": "tanoshimi desu",
+        "Spanish": "Espero con ganas."
+    },
+    "たぶん": {
+        "Japones": "たぶん",
+        "Pronunciation": "tabun",
+        "Spanish": "posiblemente / a lo mejor"
+    },
+    "はなび": {
+        "Japones": "はなび",
+        "Pronunciation": "hanabi",
+        "Spanish": "fuegos artficiales"
+    },
+    "はなびたいかい": {
+        "Japones": "はなびたいかい",
+        "Pronunciation": "hanabi-taikai",
+        "Spanish": "festival de fuegos artificiales"
+    },
+    "また　こんど": {
+        "Japones": "また　こんど",
+        "Pronunciation": "mata kondo",
+        "Spanish": "otra oportunidad"
+    },
+    "まつり": {
+        "Japones": "まつり",
+        "Pronunciation": "matsuri",
+        "Spanish": "fiesta / festival"
+    },
+    "むりょう": {
+        "Japones": "むりょう",
+        "Pronunciation": "muryoo",
+        "Spanish": "gratis / gratuito"
+    },
+    "もちろん": {
+        "Japones": "もちろん",
+        "Pronunciation": "mochiron",
+        "Spanish": "Claro / por supuesto"
+    },
+    "イベント": {
+        "Japones": "イベント",
+        "Pronunciation": "ibento",
+        "Spanish": "evento"
+    },
+    "カレンダー": {
+        "Japones": "カレンダー",
+        "Pronunciation": "karendaa",
+        "Spanish": "calendario"
+    },
+    "ショー": {
+        "Japones": "ショー",
+        "Pronunciation": "shoo",
+        "Spanish": "show / espectáculo"
+    },
+    "ジャパン": {
+        "Japones": "ジャパン",
+        "Pronunciation": "Japan",
+        "Spanish": "Japón"
+    },
+    "ファッション": {
+        "Japones": "ファッション",
+        "Pronunciation": "fasshon",
+        "Spanish": "moda"
+    },
+    "フェスティバル": {
+        "Japones": "フェスティバル",
+        "Pronunciation": "fesuthibaru",
+        "Spanish": "festival"
+    },
+    "～は　ちょっと・・・": {
+        "Japones": "～は　ちょっと・・・",
+        "Pronunciation": "~wa chotto…",
+        "Spanish": "...es un poco complicado para mí. (Eufemismo para rehusar una invitación)"
+    },
+    "あいます": {
+        "Japones": "あいます",
+        "Pronunciation": "aimasu",
+        "Spanish": "ver a... / encontrarse con..."
+    },
+    "あそびます": {
+        "Japones": "あそびます",
+        "Pronunciation": "asobimasu",
+        "Spanish": "jugar"
+    },
+    "うたいます": {
+        "Japones": "うたいます",
+        "Pronunciation": "utaimasu",
+        "Spanish": "cantar"
+    },
+    "うれしい": {
+        "Japones": "うれしい",
+        "Pronunciation": "ureshii",
+        "Spanish": "feliz / contento, -ta"
+    },
+    "おおい": {
+        "Japones": "おおい",
+        "Pronunciation": "ooi",
+        "Spanish": "mucho, -cha / muchos, -chas"
+    },
+    "おさけ／さけ": {
+        "Japones": "おさけ／さけ",
+        "Pronunciation": "osake/sake",
+        "Spanish": "alcohol / sake (vino de arroz japonés)"
+    },
+    "かちます": {
+        "Japones": "かちます",
+        "Pronunciation": "kachimasu",
+        "Spanish": "ganar"
+    },
+    "すばらしい": {
+        "Japones": "すばらしい",
+        "Pronunciation": "subarashii",
+        "Spanish": "maravilloso"
+    },
+    "せんたく": {
+        "Japones": "せんたく",
+        "Pronunciation": "sentaku",
+        "Spanish": "lavar la ropa "
+    },
+    "そうじ": {
+        "Japones": "そうじ",
+        "Pronunciation": "sooji",
+        "Spanish": "limpiar"
+    },
+    "たいへん（な）": {
+        "Japones": "たいへん（な）",
+        "Pronunciation": "taihen(na)",
+        "Spanish": "duro, -a / mucho trabajo "
+    },
+    "たのしい": {
+        "Japones": "たのしい",
+        "Pronunciation": "tanoshii",
+        "Spanish": "divertido, -da"
+    },
+    "つかれます": {
+        "Japones": "つかれます",
+        "Pronunciation": "tsukaremasu",
+        "Spanish": "cansarse"
+    },
+    "ともだちに　あいます": {
+        "Japones": "ともだちに　あいます",
+        "Pronunciation": "tomodachi ni aimasu",
+        "Spanish": "ver a / encontrarse con un(a) amigo(a) "
+    },
+    "どうでしたか": {
+        "Japones": "どうでしたか",
+        "Pronunciation": "doo deshita ka",
+        "Spanish": "¿Qué tal ha ido?"
+    },
+    "どこにも　いきませんでした": {
+        "Japones": "どこにも　いきませんでした",
+        "Pronunciation": "doko nimo ikimasendeshita",
+        "Spanish": "No fui a ningún sitio."
+    },
+    "なにも　しませんでした": {
+        "Japones": "なにも　しませんでした",
+        "Pronunciation": "nani mo shimasendeshita",
+        "Spanish": "No hice nada."
+    },
+    "また": {
+        "Japones": "また",
+        "Pronunciation": "mata",
+        "Spanish": "de nuevo / otra vez"
+    },
+    "アルバイト": {
+        "Japones": "アルバイト",
+        "Pronunciation": "arubaito",
+        "Spanish": "trabajo por horas / trabajo a tiempo parcial"
+    },
+    "カラオケ": {
+        "Japones": "カラオケ",
+        "Pronunciation": "karaoke",
+        "Spanish": "karaoke"
+    },
+    "コーヒーショップ": {
+        "Japones": "コーヒーショップ",
+        "Pronunciation": "koohii-shoppu",
+        "Spanish": "cafetería"
+    },
+    "ビートルズ": {
+        "Japones": "ビートルズ",
+        "Pronunciation": "Biitoruzu",
+        "Spanish": "The Beatles"
+    },
+    "レッズ": {
+        "Japones": "レッズ",
+        "Pronunciation": "Rezzu",
+        "Spanish": "Los Reds (un equipo de fútbol)"
+    },
+    "おばあちゃん": {
+        "Japones": "おばあちゃん",
+        "Pronunciation": "obaachan",
+        "Spanish": "abuelita"
+    },
+    "かいます": {
+        "Japones": "かいます",
+        "Pronunciation": "kaimasu",
+        "Spanish": "comprar"
+    },
+    "きょうと": {
+        "Japones": "きょうと",
+        "Pronunciation": "Kyooto",
+        "Spanish": "Kioto (una prefectura de Japón)"
+    },
+    "きょねん": {
+        "Japones": "きょねん",
+        "Pronunciation": "kyonen",
+        "Spanish": "el año pasado"
+    },
+    "くるま": {
+        "Japones": "くるま",
+        "Pronunciation": "kuruma",
+        "Spanish": "coche"
+    },
+    "ことし": {
+        "Japones": "ことし",
+        "Pronunciation": "kotoshi",
+        "Spanish": "este año"
+    },
+    "しんじゅく": {
+        "Japones": "しんじゅく",
+        "Pronunciation": "Shinjuku",
+        "Spanish": "Shinjuku (un barrio de Tokio)"
+    },
+    "それから": {
+        "Japones": "それから",
+        "Pronunciation": "sorekara",
+        "Spanish": "y luego"
+    },
+    "つぎ": {
+        "Japones": "つぎ",
+        "Pronunciation": "tsugi",
+        "Spanish": "siguiente / la próxima vez"
+    },
+    "てんぷら": {
+        "Japones": "てんぷら",
+        "Pronunciation": "tenpura",
+        "Spanish": "tempura"
+    },
+    "でも": {
+        "Japones": "でも",
+        "Pronunciation": "demo",
+        "Spanish": "pero"
+    },
+    "とまります": {
+        "Japones": "とまります",
+        "Pronunciation": "tomarimasu",
+        "Spanish": "pasar la noche / alojarse"
+    },
+    "ながい": {
+        "Japones": "ながい",
+        "Pronunciation": "nagai",
+        "Spanish": "largo, -ga"
+    },
+    "ひこうき": {
+        "Japones": "ひこうき",
+        "Pronunciation": "hikooki",
+        "Spanish": "avión"
+    },
+    "ひろしま": {
+        "Japones": "ひろしま",
+        "Pronunciation": "Hiroshima",
+        "Spanish": "Hiroshima (una prefectura de Japón)"
+    },
+    "ふね": {
+        "Japones": "ふね",
+        "Pronunciation": "fune",
+        "Spanish": "barco"
+    },
+    "モノレール": {
+        "Japones": "モノレール",
+        "Pronunciation": "monoreeru",
+        "Spanish": "monorraíl"
+    },
+    "～にちめ": {
+        "Japones": "～にちめ",
+        "Pronunciation": "~nichi-me",
+        "Spanish": "el... (número ordinal) día (Ejm. Primer día, segundo día...)"
+    },
+    "Eメール": {
+        "Japones": "Eメール",
+        "Pronunciation": "E-meeru",
+        "Spanish": "correo electrónico"
+    },
+    "いいます": {
+        "Japones": "いいます",
+        "Pronunciation": "iimasu",
+        "Spanish": "decir"
+    },
+    "えき": {
+        "Japones": "えき",
+        "Pronunciation": "eki",
+        "Spanish": "estación"
+    },
+    "おてら／てら": {
+        "Japones": "おてら／てら",
+        "Pronunciation": "otera/tera",
+        "Spanish": "templo"
+    },
+    "ざっし": {
+        "Japones": "ざっし",
+        "Pronunciation": "zasshi",
+        "Spanish": "revista"
+    },
+    "はなします": {
+        "Japones": "はなします",
+        "Pronunciation": "hanashimasu",
+        "Spanish": "hablar"
+    },
+    "コンピューターゲーム": {
+        "Japones": "コンピューターゲーム",
+        "Pronunciation": "konpyuutaa geemu",
+        "Spanish": "juego de ordenador"
+    },
+    "スペインご": {
+        "Japones": "スペインご",
+        "Pronunciation": "Supeingo",
+        "Spanish": "idioma español"
+    },
+    "フラメンコ": {
+        "Japones": "フラメンコ",
+        "Pronunciation": "furamenko",
+        "Spanish": "flamencoDVD DVDdhiibuidhii"
+    },
+    "いち": {
+        "Japones": "いち",
+        "Pronunciation": "ichi",
+        "Spanish": "uno"
+    },
+    "いつか": {
+        "Japones": "いつか",
+        "Pronunciation": "itsuka",
+        "Spanish": "algún día"
+    },
+    "いろいろ（な）": {
+        "Japones": "いろいろ（な）",
+        "Pronunciation": "iroiro(na)",
+        "Spanish": "varios"
+    },
+    "おげんきですか": {
+        "Japones": "おげんきですか",
+        "Pronunciation": "ogenki desu ka",
+        "Spanish": "¿Como está (usted)?"
+    },
+    "きゅう": {
+        "Japones": "きゅう",
+        "Pronunciation": "kyuu",
+        "Spanish": "nueve"
+    },
+    "ここのか": {
+        "Japones": "ここのか",
+        "Pronunciation": "kokonoka",
+        "Spanish": "día nueve"
+    },
+    "こんげつ": {
+        "Japones": "こんげつ",
+        "Pronunciation": "kongetsu",
+        "Spanish": "este mes"
+    },
+    "ご": {
+        "Japones": "ご",
+        "Pronunciation": "go",
+        "Spanish": "cinco"
+    },
+    "さっぽろ": {
+        "Japones": "さっぽろ",
+        "Pronunciation": "Sapporo",
+        "Spanish": "Sapporo (una ciudad de Hokkaido, Japón)"
+    },
+    "さん": {
+        "Japones": "さん",
+        "Pronunciation": "san",
+        "Spanish": "tres"
+    },
+    "し": {
+        "Japones": "し",
+        "Pronunciation": "shi",
+        "Spanish": "cuatro"
+    },
+    "しあい": {
+        "Japones": "しあい",
+        "Pronunciation": "shiai",
+        "Spanish": "partido"
+    },
+    "せんげつ": {
+        "Japones": "せんげつ",
+        "Pronunciation": "sengetsu",
+        "Spanish": "el mes pasado"
+    },
+    "ちょっと": {
+        "Japones": "ちょっと",
+        "Pronunciation": "chotto",
+        "Spanish": "un poco"
+    },
+    "ついたち": {
+        "Japones": "ついたち",
+        "Pronunciation": "tsuitachi",
+        "Spanish": "día primero"
+    },
+    "とおか": {
+        "Japones": "とおか",
+        "Pronunciation": "tooka",
+        "Spanish": "día diez"
+    },
+    "なな": {
+        "Japones": "なな",
+        "Pronunciation": "nana",
+        "Spanish": "siete"
+    },
+    "なのか": {
+        "Japones": "なのか",
+        "Pronunciation": "nanoka",
+        "Spanish": "día siete"
+    },
+    "に": {
+        "Japones": "に",
+        "Pronunciation": "ni",
+        "Spanish": "dos"
+    },
+    "はち": {
+        "Japones": "はち",
+        "Pronunciation": "hachi",
+        "Spanish": "ocho"
+    },
+    "はつか": {
+        "Japones": "はつか",
+        "Pronunciation": "hatsuka",
+        "Spanish": "día veinte"
+    },
+    "ふつか": {
+        "Japones": "ふつか",
+        "Pronunciation": "futsuka",
+        "Spanish": "día dos"
+    },
+    "へえ": {
+        "Japones": "へえ",
+        "Pronunciation": "hee",
+        "Spanish": "aah... / ¡Caramba!"
+    },
+    "ぼんさい": {
+        "Japones": "ぼんさい",
+        "Pronunciation": "bonsai",
+        "Spanish": "bonsai, árbol enano en maceta"
+    },
+    "みっか": {
+        "Japones": "みっか",
+        "Pronunciation": "mikka",
+        "Spanish": "tres días / día tres"
+    },
+    "みんな": {
+        "Japones": "みんな",
+        "Pronunciation": "minna",
+        "Spanish": "todos"
+    },
+    "むいか": {
+        "Japones": "むいか",
+        "Pronunciation": "muika",
+        "Spanish": "día seis"
+    },
+    "ようか": {
+        "Japones": "ようか",
+        "Pronunciation": "yooka",
+        "Spanish": "día ocho"
+    },
+    "よっか": {
+        "Japones": "よっか",
+        "Pronunciation": "yokka",
+        "Spanish": "día cuatro"
+    },
+    "よん": {
+        "Japones": "よん",
+        "Pronunciation": "yon",
+        "Spanish": "cuatro"
+    },
+    "らいげつ": {
+        "Japones": "らいげつ",
+        "Pronunciation": "raigetsu",
+        "Spanish": "el mes que viene"
+    },
+    "らいねん": {
+        "Japones": "らいねん",
+        "Pronunciation": "rainen",
+        "Spanish": "el año que viene"
+    },
+    "ろく": {
+        "Japones": "ろく",
+        "Pronunciation": "roku",
+        "Spanish": "seis"
+    },
+    "コンテスト": {
+        "Japones": "コンテスト",
+        "Pronunciation": "kontesuto",
+        "Spanish": "concurso"
+    },
+    "ゴールデンウィーク": {
+        "Japones": "ゴールデンウィーク",
+        "Pronunciation": "gooruden-uiiku",
+        "Spanish": "vacaciones de la \"\"Semana de oro\"\""
+    },
+    "チケット": {
+        "Japones": "チケット",
+        "Pronunciation": "chiketto",
+        "Spanish": "(boleto de) entrada"
+    },
+    "パーク": {
+        "Japones": "パーク",
+        "Pronunciation": "paaku",
+        "Spanish": "parque"
+    },
+    "ポスター": {
+        "Japones": "ポスター",
+        "Pronunciation": "posutaa",
+        "Spanish": "cartel"
+    },
+    "～にち": {
+        "Japones": "～にち",
+        "Pronunciation": "~nichi",
+        "Spanish": "día (del mes)"
+    },
+    "いちばん": {
+        "Japones": "いちばん",
+        "Pronunciation": "ichiban",
+        "Spanish": "el mejor / el más..."
+    },
+    "おもしろい": {
+        "Japones": "おもしろい",
+        "Pronunciation": "omoshiroi",
+        "Spanish": "interesante / divertido, -da"
+    },
+    "とても": {
+        "Japones": "とても",
+        "Pronunciation": "totemo",
+        "Spanish": "muy"
+    },
+    "はなし": {
+        "Japones": "はなし",
+        "Pronunciation": "hanashi",
+        "Spanish": "cuento / historia"
+    },
+    "まご": {
+        "Japones": "まご",
+        "Pronunciation": "mago",
+        "Spanish": "nieto, -ta"
+    },
+    "ショッピングセンター": {
+        "Japones": "ショッピングセンター",
+        "Pronunciation": "shoppingu-sentaa",
+        "Spanish": "centro comercial"
+    },
+    "バーベキュー": {
+        "Japones": "バーベキュー",
+        "Pronunciation": "baabekyuu",
+        "Spanish": "barbacoa"
+    },
+    "あさくさ": {
+        "Japones": "あさくさ",
+        "Pronunciation": "Asakusa",
+        "Spanish": "Asakusa (un barrio de Tokio)"
+    },
+    "げんばくドーム": {
+        "Japones": "げんばくドーム",
+        "Pronunciation": "Genbaku-Doomu",
+        "Spanish": "Cúpula de la Bomba Atómica (en Hiroshima)"
+    },
+    "しぶや": {
+        "Japones": "しぶや",
+        "Pronunciation": "Shibuya",
+        "Spanish": "Shibuya (un barrio de Tokio)"
+    },
+    "しんかんせん": {
+        "Japones": "しんかんせん",
+        "Pronunciation": "shinkansen",
+        "Spanish": "tren bala"
+    },
+    "つまらない": {
+        "Japones": "つまらない",
+        "Pronunciation": "tsumaranai",
+        "Spanish": "aburrido"
+    },
+    "とうきょうタワー": {
+        "Japones": "とうきょうタワー",
+        "Pronunciation": "Tookyoo-Tawaa",
+        "Spanish": "Torre de Tokio"
+    },
+    "ながさき": {
+        "Japones": "ながさき",
+        "Pronunciation": "Nagasaki",
+        "Spanish": "Nagasaki (una prefectura de Japón)"
+    },
+    "にほん／にっぽん": {
+        "Japones": "にほん／にっぽん",
+        "Pronunciation": "Nihon/Nippon",
+        "Spanish": "Japón"
+    },
+    "べんきょう": {
+        "Japones": "べんきょう",
+        "Pronunciation": "benkyoo",
+        "Spanish": "estudio / estudiar"
+    },
+    "むずかしい": {
+        "Japones": "むずかしい",
+        "Pronunciation": "muzukashii",
+        "Spanish": "difícil"
+    },
+    "やさしい": {
+        "Japones": "やさしい",
+        "Pronunciation": "yasashii",
+        "Spanish": "amable"
+    },
+    "やすみます": {
+        "Japones": "やすみます",
+        "Pronunciation": "yasumimasu",
+        "Spanish": "decansar / faltar a... / tomar las vacaciones"
+    },
+    "よこはま": {
+        "Japones": "よこはま",
+        "Pronunciation": "Yokohama",
+        "Spanish": "Yokohama (una ciudad en Japón)"
+    },
+    "りょこう（します）": {
+        "Japones": "りょこう（します）",
+        "Pronunciation": "ryokoo (shimasu)",
+        "Spanish": "viaje (viajar)"
+    },
+    "アイスクリーム": {
+        "Japones": "アイスクリーム",
+        "Pronunciation": "aisu-kuriimu",
+        "Spanish": "helado"
+    },
+    "Eメール／メール（を）　します": {
+        "Japones": "Eメール／メール（を）　します",
+        "Pronunciation": "E-meeru/meeru (o) shimasu",
+        "Spanish": "enviar un e-mail"
+    },
+    "あきまつり": {
+        "Japones": "あきまつり",
+        "Pronunciation": "aki-matsuri",
+        "Spanish": "fiesta de otoño / festival de otoño"
+    },
+    "あさって": {
+        "Japones": "あさって",
+        "Pronunciation": "asatte",
+        "Spanish": "pasado mañana"
+    },
+    "あした": {
+        "Japones": "あした",
+        "Pronunciation": "ashita",
+        "Spanish": "mañana (el día siguiente)"
+    },
+    "あたたかい": {
+        "Japones": "あたたかい",
+        "Pronunciation": "atatakai",
+        "Spanish": "templado, -da"
+    },
+    "あつい": {
+        "Japones": "あつい",
+        "Pronunciation": "atsui",
+        "Spanish": "caluroso, -a / cálido, -a"
+    },
+    "いきます": {
+        "Japones": "いきます",
+        "Pronunciation": "ikimasu",
+        "Spanish": "ir"
+    },
+    "いそがしい": {
+        "Japones": "いそがしい",
+        "Pronunciation": "isogashii",
+        "Spanish": "ocupado, -da"
+    },
+    "うちに　かえります": {
+        "Japones": "うちに　かえります",
+        "Pronunciation": "uchi ni kaerimasu",
+        "Spanish": "volver / regresar / ir a casa"
+    },
+    "うんどう（を）　します": {
+        "Japones": "うんどう（を）　します",
+        "Pronunciation": "undoo (o) shimasu",
+        "Spanish": "hacer ejercicio"
+    },
+    "え（を　かきます）": {
+        "Japones": "え（を　かきます）",
+        "Pronunciation": "e (o kakimasu)",
+        "Spanish": "(dibujar) una pintura"
+    },
+    "おいしい": {
+        "Japones": "おいしい",
+        "Pronunciation": "oishii",
+        "Spanish": "bueno, -a / delicioso, -a / sabroso, -a"
+    },
+    "おいのり（を）　します": {
+        "Japones": "おいのり（を）　します",
+        "Pronunciation": "oinori (o) shimasu",
+        "Spanish": "rezar"
+    },
+    "おきます": {
+        "Japones": "おきます",
+        "Pronunciation": "okimasu",
+        "Spanish": "levantarse"
+    },
+    "おけしょう（を）　します": {
+        "Japones": "おけしょう（を）　します",
+        "Pronunciation": "okeshoo(o) shimasu",
+        "Spanish": "maquillarse "
+    },
+    "おしょうがつ／しょうがつ": {
+        "Japones": "おしょうがつ／しょうがつ",
+        "Pronunciation": "oshoogatsu/shoogatsu",
+        "Spanish": "fiesta del Año Nuevo"
+    },
+    "おととい": {
+        "Japones": "おととい",
+        "Pronunciation": "ototoi",
+        "Spanish": "anteayer"
+    },
+    "おどり": {
+        "Japones": "おどり",
+        "Pronunciation": "odori",
+        "Spanish": "baile"
+    },
+    "おどります": {
+        "Japones": "おどります",
+        "Pronunciation": "odorimasu",
+        "Spanish": "bailar"
+    },
+    "おふろに　はいります": {
+        "Japones": "おふろに　はいります",
+        "Pronunciation": "ofuro ni hairimasu",
+        "Spanish": "tomar un baño"
+    },
+    "おみやげ": {
+        "Japones": "おみやげ",
+        "Pronunciation": "omiyage",
+        "Spanish": "regalo / recuerdo"
+    },
+    "おんがくを　ききます": {
+        "Japones": "おんがくを　ききます",
+        "Pronunciation": "ongaku o kikimasu",
+        "Spanish": "escuchar la música"
+    },
+    "かいしゃ": {
+        "Japones": "かいしゃ",
+        "Pronunciation": "kaisha",
+        "Spanish": "compañía / empresa"
+    },
+    "かいすいよく": {
+        "Japones": "かいすいよく",
+        "Pronunciation": "kaisuiyoku",
+        "Spanish": "baños de mar"
+    },
+    "かいもの（を）　します": {
+        "Japones": "かいもの（を）　します",
+        "Pronunciation": "kaimono (o) shimasu",
+        "Spanish": "hacer compras"
+    },
+    "かおを　あらいます": {
+        "Japones": "かおを　あらいます",
+        "Pronunciation": "kao o araimasu",
+        "Spanish": "lavarse la cara"
+    },
+    "かじ（を）　します": {
+        "Japones": "かじ（を）　します",
+        "Pronunciation": "kaji (o) shimasu",
+        "Spanish": "trabajar en el hogar"
+    },
+    "かたづけます": {
+        "Japones": "かたづけます",
+        "Pronunciation": "katazukemasu",
+        "Spanish": "ordenar / arreglar"
+    },
+    "かなしい": {
+        "Japones": "かなしい",
+        "Pronunciation": "kanashii",
+        "Spanish": "triste"
+    },
+    "かようび": {
+        "Japones": "かようび",
+        "Pronunciation": "kayoobi",
+        "Spanish": "martes"
+    },
+    "かんこうち": {
+        "Japones": "かんこうち",
+        "Pronunciation": "kankoochi",
+        "Spanish": "lugares turísticos"
+    },
+    "がっこう": {
+        "Japones": "がっこう",
+        "Pronunciation": "gakkoo",
+        "Spanish": "escuela / colegio / academia"
+    },
+    "きっぷ": {
+        "Japones": "きっぷ",
+        "Pronunciation": "kippu",
+        "Spanish": "billete"
+    },
+    "きのう": {
+        "Japones": "きのう",
+        "Pronunciation": "kinoo",
+        "Spanish": "ayer"
+    },
+    "きょう": {
+        "Japones": "きょう",
+        "Pronunciation": "kyoo",
+        "Spanish": "hoy"
+    },
+    "きれい（な）": {
+        "Japones": "きれい（な）",
+        "Pronunciation": "kiree(na)",
+        "Spanish": "bonito, -ta"
+    },
+    "きんようび": {
+        "Japones": "きんようび",
+        "Pronunciation": "kin'yoobi",
+        "Spanish": "viernes"
+    },
+    "くうこう": {
+        "Japones": "くうこう",
+        "Pronunciation": "kuukoo",
+        "Spanish": "aeropuerto"
+    },
+    "げつようび": {
+        "Japones": "げつようび",
+        "Pronunciation": "getsuyoobi",
+        "Spanish": "lunes"
+    },
+    "こわい": {
+        "Japones": "こわい",
+        "Pronunciation": "kowai",
+        "Spanish": "miedoso / da miedo"
+    },
+    "こんしゅう": {
+        "Japones": "こんしゅう",
+        "Pronunciation": "konshuu",
+        "Spanish": "esta semana"
+    },
+    "さむい": {
+        "Japones": "さむい",
+        "Pronunciation": "samui",
+        "Spanish": "frío"
+    },
+    "さんぽ（を）　します": {
+        "Japones": "さんぽ（を）　します",
+        "Pronunciation": "sanpo (o) shimasu",
+        "Spanish": "pasear"
+    },
+    "ざんぎょう（を）　します": {
+        "Japones": "ざんぎょう（を）　します",
+        "Pronunciation": "zangyoo (o) shimasu",
+        "Spanish": "hacer horas extra"
+    },
+    "しごと（を）　します": {
+        "Japones": "しごと（を）　します",
+        "Pronunciation": "shigoto (o) shimasu",
+        "Spanish": "trabajar"
+    },
+    "しゃしんを　とります": {
+        "Japones": "しゃしんを　とります",
+        "Pronunciation": "shashin o torimasu",
+        "Spanish": "sacar una foto"
+    },
+    "しゅう": {
+        "Japones": "しゅう",
+        "Pronunciation": "shuu",
+        "Spanish": "semana"
+    },
+    "しょくじ（を）　します": {
+        "Japones": "しょくじ（を）　します",
+        "Pronunciation": "shokuji (o) shimasu",
+        "Spanish": "comer"
+    },
+    "しんぶんを　よみます": {
+        "Japones": "しんぶんを　よみます",
+        "Pronunciation": "shinbun o yomimasu",
+        "Spanish": "leer periódico"
+    },
+    "じんじゃ": {
+        "Japones": "じんじゃ",
+        "Pronunciation": "jinja",
+        "Spanish": "templo sintoísta"
+    },
+    "すいえい": {
+        "Japones": "すいえい",
+        "Pronunciation": "suiee",
+        "Spanish": "natación"
+    },
+    "すいようび": {
+        "Japones": "すいようび",
+        "Pronunciation": "suiyoobi",
+        "Spanish": "miércoles"
+    },
+    "すき（な）": {
+        "Japones": "すき（な）",
+        "Pronunciation": "suki(na)",
+        "Spanish": "gustar / favorito, -a"
+    },
+    "すし／おすし": {
+        "Japones": "すし／おすし",
+        "Pronunciation": "sushi/osushi",
+        "Spanish": "sushi"
+    },
+    "すずしい": {
+        "Japones": "すずしい",
+        "Pronunciation": "suzushii",
+        "Spanish": "fresco"
+    },
+    "せんしゅう": {
+        "Japones": "せんしゅう",
+        "Pronunciation": "senshuu",
+        "Spanish": "la semana pasada"
+    },
+    "せんたく（を）　します": {
+        "Japones": "せんたく（を）　します",
+        "Pronunciation": "sentaku (o) shimasu",
+        "Spanish": "lavar la ropa "
+    },
+    "そうじ（を）　します": {
+        "Japones": "そうじ（を）　します",
+        "Pronunciation": "sooji (o) shimasu",
+        "Spanish": "limpiar"
+    },
+    "たっきゅう／ピンポン": {
+        "Japones": "たっきゅう／ピンポン",
+        "Pronunciation": "takkyuu/pinpon",
+        "Spanish": "tenis de mesa / ping pong"
+    },
+    "たばこを　すいます": {
+        "Japones": "たばこを　すいます",
+        "Pronunciation": "tabako o suimasu",
+        "Spanish": "fumar"
+    },
+    "たべます": {
+        "Japones": "たべます",
+        "Pronunciation": "tabemasu",
+        "Spanish": "comer"
+    },
+    "ちず": {
+        "Japones": "ちず",
+        "Pronunciation": "chizu",
+        "Spanish": "mapa"
+    },
+    "つき": {
+        "Japones": "つき",
+        "Pronunciation": "tsuki",
+        "Spanish": "mes "
+    },
+    "つり（を　します）": {
+        "Japones": "つり（を　します）",
+        "Pronunciation": "tsuri (o shimasu)",
+        "Spanish": "pesca (pescar)"
+    },
+    "てつだいます": {
+        "Japones": "てつだいます",
+        "Pronunciation": "tetsudaimasu",
+        "Spanish": "ayudar"
+    },
+    "でかけます": {
+        "Japones": "でかけます",
+        "Pronunciation": "dekakemasu",
+        "Spanish": "salir"
+    },
+    "でんわ（を）　します／でんわを　かけます": {
+        "Japones": "でんわ（を）　します／でんわを　かけます",
+        "Pronunciation": "denwa (o) shimasu/denwa o kakemasu",
+        "Spanish": "llamar por teléfono"
+    },
+    "とうきょう": {
+        "Japones": "とうきょう",
+        "Pronunciation": "Tookyoo",
+        "Spanish": "Tokio"
+    },
+    "とし": {
+        "Japones": "とし",
+        "Pronunciation": "toshi",
+        "Spanish": "edad"
+    },
+    "どようび": {
+        "Japones": "どようび",
+        "Pronunciation": "doyoobi",
+        "Spanish": "sábado"
+    },
+    "なつまつり": {
+        "Japones": "なつまつり",
+        "Pronunciation": "natsu-matsuri",
+        "Spanish": "festival de verano"
+    },
+    "なつやすみ": {
+        "Japones": "なつやすみ",
+        "Pronunciation": "natsu-yasumi",
+        "Spanish": "vacaciones de verano"
+    },
+    "にっきを　かきます": {
+        "Japones": "にっきを　かきます",
+        "Pronunciation": "nikki o kakimasu",
+        "Spanish": "llevar un diario"
+    },
+    "にほんご": {
+        "Japones": "にほんご",
+        "Pronunciation": "Nihongo",
+        "Spanish": "idioma japonés"
+    },
+    "にもつ": {
+        "Japones": "にもつ",
+        "Pronunciation": "nimotsu",
+        "Spanish": "equipaje / bultos"
+    },
+    "ねます": {
+        "Japones": "ねます",
+        "Pronunciation": "nemasu",
+        "Spanish": "acostarse / ir a la cama"
+    },
+    "はつもうで": {
+        "Japones": "はつもうで",
+        "Pronunciation": "hatsu-moode",
+        "Spanish": "visita a un templo por el Año Nuevo"
+    },
+    "はなみ": {
+        "Japones": "はなみ",
+        "Pronunciation": "hanami",
+        "Spanish": "admiración de flores / ir a ver las flores del cerezo"
+    },
+    "はを　みがきます": {
+        "Japones": "はを　みがきます",
+        "Pronunciation": "ha o migakimasu",
+        "Spanish": "cepillarse los dientes"
+    },
+    "ひきます": {
+        "Japones": "ひきます",
+        "Pronunciation": "hikimasu",
+        "Spanish": "tocar (instrumentos musicales)"
+    },
+    "ひげを　そります": {
+        "Japones": "ひげを　そります",
+        "Pronunciation": "hige o sorimasu",
+        "Spanish": "afeitarse"
+    },
+    "ふくを　きます": {
+        "Japones": "ふくを　きます",
+        "Pronunciation": "fuku o kimasu",
+        "Spanish": "vestirse"
+    },
+    "ふくを　ぬぎます": {
+        "Japones": "ふくを　ぬぎます",
+        "Pronunciation": "fuku o nugimasu",
+        "Spanish": "quitarse la ropa "
+    },
+    "ふじさん": {
+        "Japones": "ふじさん",
+        "Pronunciation": "Fujisan",
+        "Spanish": "Monte Fuji"
+    },
+    "ふゆやすみ": {
+        "Japones": "ふゆやすみ",
+        "Pronunciation": "fuyu-yasumi",
+        "Spanish": "vacaciones de invierno"
+    },
+    "ぶどうがり": {
+        "Japones": "ぶどうがり",
+        "Pronunciation": "budoogari",
+        "Spanish": "ir a vendimiar / cosecha de la uva"
+    },
+    "べんきょう（を）　します": {
+        "Japones": "べんきょう（を）　します",
+        "Pronunciation": "benkyoo (o) shimasu",
+        "Spanish": "estudiar"
+    },
+    "ほん": {
+        "Japones": "ほん",
+        "Pronunciation": "hon",
+        "Spanish": "libro"
+    },
+    "ぼんおどり": {
+        "Japones": "ぼんおどり",
+        "Pronunciation": "bon-odori",
+        "Spanish": "festival de danza tradicional de Japón "
+    },
+    "まいしゅう": {
+        "Japones": "まいしゅう",
+        "Pronunciation": "maishuu",
+        "Spanish": "todas las semanas"
+    },
+    "まいつき": {
+        "Japones": "まいつき",
+        "Pronunciation": "maitsuki",
+        "Spanish": "todos los meses"
+    },
+    "まいとし": {
+        "Japones": "まいとし",
+        "Pronunciation": "maitoshi",
+        "Spanish": "todos los años"
+    },
+    "まいにち": {
+        "Japones": "まいにち",
+        "Pronunciation": "mainichi",
+        "Spanish": "todos los días"
+    },
+    "もくようび": {
+        "Japones": "もくようび",
+        "Pronunciation": "mokuyoobi",
+        "Spanish": "jueves"
+    },
+    "もみじがり": {
+        "Japones": "もみじがり",
+        "Pronunciation": "momijigari",
+        "Spanish": "ir a ver las hojas otoñales"
+    },
+    "やまのぼり（を　します）": {
+        "Japones": "やまのぼり（を　します）",
+        "Pronunciation": "yamanobori (o shimasu)",
+        "Spanish": "escalar la montaña"
+    },
+    "ゆきまつり": {
+        "Japones": "ゆきまつり",
+        "Pronunciation": "yuki-matsuri",
+        "Spanish": "festival de la nieve"
+    },
+    "よやく（を　します）": {
+        "Japones": "よやく（を　します）",
+        "Pronunciation": "yoyaku (o shimasu)",
+        "Spanish": "reserva (reservar) "
+    },
+    "らいしゅう": {
+        "Japones": "らいしゅう",
+        "Pronunciation": "raishuu",
+        "Spanish": "la semana que viene"
+    },
+    "りょうり（を）　します": {
+        "Japones": "りょうり（を）　します",
+        "Pronunciation": "ryoori (o) shimasu",
+        "Spanish": "cocinar"
+    },
+    "りょかん": {
+        "Japones": "りょかん",
+        "Pronunciation": "ryokan",
+        "Spanish": "posada / hotel de estilo japonés"
+    },
+    "アルバイト／バイト（を）　します": {
+        "Japones": "アルバイト／バイト（を）　します",
+        "Pronunciation": "arubaito/batio (o) shimasu",
+        "Spanish": "trabajar por horas"
+    },
+    "インターネット（を）　します": {
+        "Japones": "インターネット（を）　します",
+        "Pronunciation": "intaanetto (o) shimasu",
+        "Spanish": "navegar por internet"
+    },
+    "カメラ": {
+        "Japones": "カメラ",
+        "Pronunciation": "kamera",
+        "Spanish": "cámara"
+    },
+    "キャンプ（を　します）": {
+        "Japones": "キャンプ（を　します）",
+        "Pronunciation": "kyanpu (o shimasu)",
+        "Spanish": "camping"
+    },
+    "ゲーム": {
+        "Japones": "ゲーム",
+        "Pronunciation": "geemu",
+        "Spanish": "juego"
+    },
+    "ゲーム（を）　します": {
+        "Japones": "ゲーム（を）　します",
+        "Pronunciation": "geemu(o) shimasu",
+        "Spanish": "jugar (con juegos)"
+    },
+    "コンサート": {
+        "Japones": "コンサート",
+        "Pronunciation": "konsaato",
+        "Spanish": "concierto"
+    },
+    "ゴルフ": {
+        "Japones": "ゴルフ",
+        "Pronunciation": "gorufu",
+        "Spanish": "golf"
+    },
+    "シャワーを　あびます": {
+        "Japones": "シャワーを　あびます",
+        "Pronunciation": "shawaa o abimasu",
+        "Spanish": "ducharse"
+    },
+    "ジョギング": {
+        "Japones": "ジョギング",
+        "Pronunciation": "jogingu",
+        "Spanish": "footing"
+    },
+    "スケート": {
+        "Japones": "スケート",
+        "Pronunciation": "sukeeto",
+        "Spanish": "patinaje"
+    },
+    "スーツケース": {
+        "Japones": "スーツケース",
+        "Pronunciation": "suutsukeesu",
+        "Spanish": "maleta"
+    },
+    "チラシ": {
+        "Japones": "チラシ",
+        "Pronunciation": "chirashi",
+        "Spanish": "prospecto"
+    },
+    "テニス": {
+        "Japones": "テニス",
+        "Pronunciation": "tenisu",
+        "Spanish": "tenis "
+    },
+    "テレビを　みます": {
+        "Japones": "テレビを　みます",
+        "Pronunciation": "terebi o mimasu",
+        "Spanish": "ver la televisión"
+    },
+    "バスケットボール": {
+        "Japones": "バスケットボール",
+        "Pronunciation": "basuketto-booru",
+        "Spanish": "baloncesto"
+    },
+    "パスポート": {
+        "Japones": "パスポート",
+        "Pronunciation": "pasupooto",
+        "Spanish": "pasaporte"
+    },
+    "パンフレット": {
+        "Japones": "パンフレット",
+        "Pronunciation": "panfuretto",
+        "Spanish": "folleto"
+    },
+    "パーティー": {
+        "Japones": "パーティー",
+        "Pronunciation": "paathii",
+        "Spanish": "fiesta"
+    },
+    "ビザ": {
+        "Japones": "ビザ",
+        "Pronunciation": "biza",
+        "Spanish": "visado"
+    },
+    "ホテル": {
+        "Japones": "ホテル",
+        "Pronunciation": "hoteru",
+        "Spanish": "hotel"
+    },
+    "ヨガ（を）　します": {
+        "Japones": "ヨガ（を）　します",
+        "Pronunciation": "yoga (o) shimasu",
+        "Spanish": "practicar el yoga"
+    },
+    "～がつ": {
+        "Japones": "～がつ",
+        "Pronunciation": "~gatsu",
+        "Spanish": "mes"
+    },
+    "～と　おしゃべりします": {
+        "Japones": "～と　おしゃべりします",
+        "Pronunciation": "~to oshaberi-shimasu",
+        "Spanish": "charlar con..."
+    },
     "あかるい": {
         "Japones": "あかるい",
         "Pronunciation": "akarui",
@@ -13,16 +1548,6 @@
         "Japones": "いい",
         "Pronunciation": "ii",
         "Spanish": "bueno, -na"
-    },
-    "いきます": {
-        "Japones": "いきます",
-        "Pronunciation": "ikimasu",
-        "Spanish": "ir"
-    },
-    "いつか": {
-        "Japones": "いつか",
-        "Pronunciation": "itsuka",
-        "Spanish": "algún día"
     },
     "いみ": {
         "Japones": "いみ",
@@ -44,11 +1569,6 @@
         "Pronunciation": "umaremasu",
         "Spanish": "nacer"
     },
-    "えいが": {
-        "Japones": "えいが",
-        "Pronunciation": "eega",
-        "Spanish": "cine / película"
-    },
     "ええと／えっと／ええっと": {
         "Japones": "ええと／えっと／ええっと",
         "Pronunciation": "eeto/etto/eetto",
@@ -69,25 +1589,10 @@
         "Pronunciation": "onaji",
         "Spanish": "mismo, -ma"
     },
-    "かいしゃ": {
-        "Japones": "かいしゃ",
-        "Pronunciation": "kaisha",
-        "Spanish": "compañía / empresa"
-    },
-    "かいます": {
-        "Japones": "かいます",
-        "Pronunciation": "kaimasu",
-        "Spanish": "comprar"
-    },
     "かぞく": {
         "Japones": "かぞく",
         "Pronunciation": "kazoku",
         "Spanish": "familia"
-    },
-    "がっこう": {
-        "Japones": "がっこう",
-        "Pronunciation": "gakkoo",
-        "Spanish": "escuela / colegio / academia"
     },
     "きょうだい": {
         "Japones": "きょうだい",
@@ -159,11 +1664,6 @@
         "Pronunciation": "shimasu",
         "Spanish": "hacer"
     },
-    "しゅみ": {
-        "Japones": "しゅみ",
-        "Pronunciation": "shumi",
-        "Spanish": "afición / hobby"
-    },
     "じこしょうかい（します）": {
         "Japones": "じこしょうかい（します）",
         "Pronunciation": "jikoshookai (shimasu)",
@@ -214,11 +1714,6 @@
         "Pronunciation": "densha",
         "Spanish": "tren"
     },
-    "とうきょう": {
-        "Japones": "とうきょう",
-        "Pronunciation": "Tookyoo",
-        "Spanish": "Tokio"
-    },
     "とおい": {
         "Japones": "とおい",
         "Pronunciation": "tooi",
@@ -233,11 +1728,6 @@
         "Japones": "ところ",
         "Pronunciation": "tokoro",
         "Spanish": "lugar"
-    },
-    "とし": {
-        "Japones": "とし",
-        "Pronunciation": "toshi",
-        "Spanish": "edad"
     },
     "ともだち": {
         "Japones": "ともだち",
@@ -254,30 +1744,15 @@
         "Pronunciation": "doozo yoroshiku (onegaishimasu)",
         "Spanish": "（おねがいします） Encantado, -da de verle."
     },
-    "どくしょ": {
-        "Japones": "どくしょ",
-        "Pronunciation": "dokusho",
-        "Spanish": "lectura / leer"
-    },
     "どくしん": {
         "Japones": "どくしん",
         "Pronunciation": "dokushin",
         "Spanish": "soltero, -ra"
     },
-    "どんな": {
-        "Japones": "どんな",
-        "Pronunciation": "donna",
-        "Spanish": "qué tipo de..."
-    },
     "なまえ": {
         "Japones": "なまえ",
         "Pronunciation": "namae",
         "Spanish": "nombre"
-    },
-    "にほん／にっぽん": {
-        "Japones": "にほん／にっぽん",
-        "Pronunciation": "Nihon/Nippon",
-        "Spanish": "Japón"
     },
     "はじめまして": {
         "Japones": "はじめまして",
@@ -339,16 +1814,6 @@
         "Pronunciation": "mise",
         "Spanish": "tienda / restaurante"
     },
-    "みます": {
-        "Japones": "みます",
-        "Pronunciation": "mimasu",
-        "Spanish": "ver / mirar"
-    },
-    "むいか": {
-        "Japones": "むいか",
-        "Pronunciation": "muika",
-        "Spanish": "día seis"
-    },
     "むら": {
         "Japones": "むら",
         "Pronunciation": "mura",
@@ -363,11 +1828,6 @@
         "Japones": "もの",
         "Pronunciation": "mono",
         "Spanish": "cosa"
-    },
-    "やさしい": {
-        "Japones": "やさしい",
-        "Pronunciation": "yasashii",
-        "Spanish": "amable"
     },
     "やります": {
         "Japones": "やります",
@@ -399,11 +1859,6 @@
         "Pronunciation": "watashi",
         "Spanish": "yo"
     },
-    "アニメ": {
-        "Japones": "アニメ",
-        "Pronunciation": "anime",
-        "Spanish": "anime / dibujos animados"
-    },
     "アメリカ": {
         "Japones": "アメリカ",
         "Pronunciation": "Amerika",
@@ -424,20 +1879,10 @@
         "Pronunciation": "sukii",
         "Spanish": "esquí"
     },
-    "ダンス": {
-        "Japones": "ダンス",
-        "Pronunciation": "dansu",
-        "Spanish": "baile / danza"
-    },
     "テレビ": {
         "Japones": "テレビ",
         "Pronunciation": "terebi",
         "Spanish": "televisión / televisor"
-    },
-    "マンガ": {
-        "Japones": "マンガ",
-        "Pronunciation": "manga",
-        "Spanish": "manga / cómic / historieta"
     },
     "ミュージカル": {
         "Japones": "ミュージカル",
@@ -459,11 +1904,6 @@
         "Pronunciation": "Roshia",
         "Spanish": "Rusia"
     },
-    "～がつ": {
-        "Japones": "～がつ",
-        "Pronunciation": "~gatsu",
-        "Spanish": "mes"
-    },
     "～さい": {
         "Japones": "～さい",
         "Pronunciation": "~sai",
@@ -478,11 +1918,6 @@
         "Japones": "～に　きょうみが あります",
         "Pronunciation": "~ni kyoomi ga arimasu",
         "Spanish": "interesarse"
-    },
-    "～にち": {
-        "Japones": "～にち",
-        "Pronunciation": "~nichi",
-        "Spanish": "día (del mes)"
     },
     "～にん": {
         "Japones": "～にん",
@@ -539,11 +1974,6 @@
         "Pronunciation": "iie/ie",
         "Spanish": "no."
     },
-    "いっしょに": {
-        "Japones": "いっしょに",
-        "Pronunciation": "issho ni",
-        "Spanish": "juntos"
-    },
     "おくさん": {
         "Japones": "おくさん",
         "Pronunciation": "okusan",
@@ -568,11 +1998,6 @@
         "Japones": "おねえさん",
         "Pronunciation": "oneesan",
         "Spanish": "(su) hermana mayor"
-    },
-    "おもしろい": {
-        "Japones": "おもしろい",
-        "Pronunciation": "omoshiroi",
-        "Spanish": "interesante / divertido, -da"
     },
     "およぎます": {
         "Japones": "およぎます",
@@ -629,11 +2054,6 @@
         "Pronunciation": "kimasu",
         "Spanish": "venir"
     },
-    "きれい（な）": {
-        "Japones": "きれい（な）",
-        "Pronunciation": "kiree(na)",
-        "Spanish": "bonito, -ta"
-    },
     "げんき(な)": {
         "Japones": "げんき(な)",
         "Pronunciation": "genki(na)",
@@ -679,11 +2099,6 @@
         "Pronunciation": "se",
         "Spanish": "estatura"
     },
-    "ぜんぜん": {
-        "Japones": "ぜんぜん",
-        "Pronunciation": "zenzen",
-        "Spanish": "nada"
-    },
     "そう": {
         "Japones": "そう",
         "Pronunciation": "soo",
@@ -718,11 +2133,6 @@
         "Japones": "どの",
         "Pronunciation": "dono",
         "Spanish": "cuál...〔Sustantivo〕 (de entre tres o más alternativos)"
-    },
-    "ながい": {
-        "Japones": "ながい",
-        "Pronunciation": "nagai",
-        "Spanish": "largo, -ga"
     },
     "なきます": {
         "Japones": "なきます",
@@ -824,11 +2234,6 @@
         "Pronunciation": "aji",
         "Spanish": "sabor"
     },
-    "あたたかい": {
-        "Japones": "あたたかい",
-        "Pronunciation": "atatakai",
-        "Spanish": "templado, -da"
-    },
     "あと": {
         "Japones": "あと",
         "Pronunciation": "ato",
@@ -843,11 +2248,6 @@
         "Japones": "あります",
         "Pronunciation": "arimasu",
         "Spanish": "haber (fiesta / festival etc.)"
-    },
-    "いちばん": {
-        "Japones": "いちばん",
-        "Pronunciation": "ichiban",
-        "Spanish": "el mejor / el más..."
     },
     "いつも": {
         "Japones": "いつも",
@@ -874,11 +2274,6 @@
         "Pronunciation": "ebi",
         "Spanish": "langostino / gamba / camarón"
     },
-    "おいしい": {
-        "Japones": "おいしい",
-        "Pronunciation": "oishii",
-        "Spanish": "bueno, -a / delicioso, -a / sabroso, -a"
-    },
     "おおきな": {
         "Japones": "おおきな",
         "Pronunciation": "ookina",
@@ -888,11 +2283,6 @@
         "Japones": "おさかな",
         "Pronunciation": "osakana",
         "Spanish": "pescado (expresión cortés)"
-    },
-    "おさけ／さけ": {
-        "Japones": "おさけ／さけ",
-        "Pronunciation": "osake/sake",
-        "Spanish": "alcohol / sake (vino de arroz japonés)"
     },
     "おすすめ": {
         "Japones": "おすすめ",
@@ -978,11 +2368,6 @@
         "Japones": "ぎゅうにく／ビーフ",
         "Pronunciation": "gyuuniku/biifu",
         "Spanish": "carne de vaca"
-    },
-    "くるま": {
-        "Japones": "くるま",
-        "Pronunciation": "kuruma",
-        "Spanish": "coche"
     },
     "こちら": {
         "Japones": "こちら",
@@ -1074,11 +2459,6 @@
         "Pronunciation": "tanoshimimasu",
         "Spanish": "divertirse, disfurtar"
     },
-    "たべます": {
-        "Japones": "たべます",
-        "Pronunciation": "tabemasu",
-        "Spanish": "comer"
-    },
     "ちかい": {
         "Japones": "ちかい",
         "Pronunciation": "chikai",
@@ -1094,20 +2474,10 @@
         "Pronunciation": "chuumon(shimasu)",
         "Spanish": "pedir"
     },
-    "ちょっと": {
-        "Japones": "ちょっと",
-        "Pronunciation": "chotto",
-        "Spanish": "un poco"
-    },
     "つめたい": {
         "Japones": "つめたい",
         "Pronunciation": "tsumetai",
         "Spanish": "frío"
-    },
-    "てんぷら": {
-        "Japones": "てんぷら",
-        "Pronunciation": "tenpura",
-        "Spanish": "tempura"
     },
     "とうふ": {
         "Japones": "とうふ",
@@ -1344,11 +2714,6 @@
         "Pronunciation": "a",
         "Spanish": "ah,"
     },
-    "あつい": {
-        "Japones": "あつい",
-        "Pronunciation": "atsui",
-        "Spanish": "caluroso, -a / cálido, -a"
-    },
     "あまい": {
         "Japones": "あまい",
         "Pronunciation": "amai",
@@ -1529,11 +2894,6 @@
         "Pronunciation": "toogarashi",
         "Spanish": "pimiento picante, guindillas"
     },
-    "とります": {
-        "Japones": "とります",
-        "Pronunciation": "torimasu",
-        "Spanish": "tomar / sacar (fotos)"
-    },
     "どうやって": {
         "Japones": "どうやって",
         "Pronunciation": "doo yatte",
@@ -1594,11 +2954,6 @@
         "Pronunciation": "machimasu",
         "Spanish": "esperar"
     },
-    "みんな": {
-        "Japones": "みんな",
-        "Pronunciation": "minna",
-        "Spanish": "todos"
-    },
     "もう": {
         "Japones": "もう",
         "Pronunciation": "moo",
@@ -1649,11 +3004,6 @@
         "Pronunciation": "umi",
         "Spanish": "mar"
     },
-    "おおい": {
-        "Japones": "おおい",
-        "Pronunciation": "ooi",
-        "Spanish": "mucho, -cha / muchos, -chas"
-    },
     "おきなわ": {
         "Japones": "おきなわ",
         "Pronunciation": "Okinawa",
@@ -1684,11 +3034,6 @@
         "Pronunciation": "kankoo-shiizun",
         "Spanish": "temporada turística"
     },
-    "くうこう": {
-        "Japones": "くうこう",
-        "Pronunciation": "kuukoo",
-        "Spanish": "aeropuerto"
-    },
     "けしき": {
         "Japones": "けしき",
         "Pronunciation": "keshiki",
@@ -1698,11 +3043,6 @@
         "Japones": "こみます",
         "Pronunciation": "komimasu",
         "Spanish": "agolparse, llenarse"
-    },
-    "さむい": {
-        "Japones": "さむい",
-        "Pronunciation": "samui",
-        "Spanish": "frío"
     },
     "しぜん": {
         "Japones": "しぜん",
@@ -1724,16 +3064,6 @@
         "Pronunciation": "sukunai",
         "Spanish": "poco"
     },
-    "すばらしい": {
-        "Japones": "すばらしい",
-        "Pronunciation": "subarashii",
-        "Spanish": "maravilloso"
-    },
-    "それから": {
-        "Japones": "それから",
-        "Pronunciation": "sorekara",
-        "Spanish": "y luego"
-    },
     "たいふう": {
         "Japones": "たいふう",
         "Pronunciation": "taifuu",
@@ -1743,11 +3073,6 @@
         "Japones": "たべもの",
         "Pronunciation": "tabemono",
         "Spanish": "comida / alimentos"
-    },
-    "つかれます": {
-        "Japones": "つかれます",
-        "Pronunciation": "tsukaremasu",
-        "Spanish": "cansarse"
     },
     "つきます": {
         "Japones": "つきます",
@@ -1763,11 +3088,6 @@
         "Japones": "できれば",
         "Pronunciation": "dekireba",
         "Spanish": "si es posible"
-    },
-    "でも": {
-        "Japones": "でも",
-        "Pronunciation": "demo",
-        "Spanish": "pero"
     },
     "で／それで": {
         "Japones": "で／それで",
@@ -1799,20 +3119,10 @@
         "Pronunciation": "hayai",
         "Spanish": "rápido"
     },
-    "ひこうき": {
-        "Japones": "ひこうき",
-        "Pronunciation": "hikooki",
-        "Spanish": "avión"
-    },
     "ひろい": {
         "Japones": "ひろい",
         "Pronunciation": "hiroi",
         "Spanish": "espacioso / amplio, -lia"
-    },
-    "ふね": {
-        "Japones": "ふね",
-        "Pronunciation": "fune",
-        "Spanish": "barco"
     },
     "ほっ": {
         "Japones": "ほっ",
@@ -1909,11 +3219,6 @@
         "Pronunciation": "basu",
         "Spanish": "autobús"
     },
-    "ホテル": {
-        "Japones": "ホテル",
-        "Pronunciation": "hoteru",
-        "Spanish": "hotel"
-    },
     "レンタル(します)": {
         "Japones": "レンタル(します)",
         "Pronunciation": "rentaru (shimasu)",
@@ -1974,40 +3279,15 @@
         "Pronunciation": "okyakusama",
         "Spanish": "cliente / invitado / visitante (expresión formal para referirse a estas personas)"
     },
-    "おどり": {
-        "Japones": "おどり",
-        "Pronunciation": "odori",
-        "Spanish": "baile"
-    },
     "おもいで": {
         "Japones": "おもいで",
         "Pronunciation": "omoide",
         "Spanish": "recuerdo"
     },
-    "おんがく": {
-        "Japones": "おんがく",
-        "Pronunciation": "ongaku",
-        "Spanish": "música"
-    },
-    "かきます": {
-        "Japones": "かきます",
-        "Pronunciation": "kakimasu",
-        "Spanish": "escribir"
-    },
     "かわ": {
         "Japones": "かわ",
         "Pronunciation": "kawa",
         "Spanish": "río"
-    },
-    "ききます": {
-        "Japones": "ききます",
-        "Pronunciation": "kikimasu",
-        "Spanish": "oir / escuchar"
-    },
-    "きょう": {
-        "Japones": "きょう",
-        "Pronunciation": "kyoo",
-        "Spanish": "hoy"
     },
     "きょうりょく(します)": {
         "Japones": "きょうりょく(します)",
@@ -2064,11 +3344,6 @@
         "Pronunciation": "sorenara",
         "Spanish": "si / en caso de"
     },
-    "たのしい": {
-        "Japones": "たのしい",
-        "Pronunciation": "tanoshii",
-        "Spanish": "divertido, -da"
-    },
     "だんせい": {
         "Japones": "だんせい",
         "Pronunciation": "dansee",
@@ -2088,11 +3363,6 @@
         "Japones": "つくります",
         "Pronunciation": "tsukurimasu",
         "Spanish": "hacer"
-    },
-    "とても": {
-        "Japones": "とても",
-        "Pronunciation": "totemo",
-        "Spanish": "muy"
     },
     "どうぶつ": {
         "Japones": "どうぶつ",
@@ -2123,11 +3393,6 @@
         "Japones": "ぶんか",
         "Pronunciation": "bunka",
         "Spanish": "cultura"
-    },
-    "へえ": {
-        "Japones": "へえ",
-        "Pronunciation": "hee",
-        "Spanish": "aah... / ¡Caramba!"
     },
     "まあまあ(な)": {
         "Japones": "まあまあ(な)",
@@ -2184,11 +3449,6 @@
         "Pronunciation": "koppu",
         "Spanish": "vaso"
     },
-    "ショー": {
-        "Japones": "ショー",
-        "Pronunciation": "shoo",
-        "Spanish": "show / espectáculo"
-    },
     "ツアー": {
         "Japones": "ツアー",
         "Pronunciation": "tsuaa",
@@ -2204,20 +3464,10 @@
         "Pronunciation": "nekkuresu",
         "Spanish": "collar"
     },
-    "パンフレット": {
-        "Japones": "パンフレット",
-        "Pronunciation": "panfuretto",
-        "Spanish": "folleto"
-    },
     "プラン": {
         "Japones": "プラン",
         "Pronunciation": "puran",
         "Spanish": "plan"
-    },
-    "あいます": {
-        "Japones": "あいます",
-        "Pronunciation": "aimasu",
-        "Spanish": "ver a... / encontrarse con..."
     },
     "あかちゃん": {
         "Japones": "あかちゃん",
@@ -2263,11 +3513,6 @@
         "Japones": "いもうと",
         "Pronunciation": "imooto",
         "Spanish": "(mi) hermana menor"
-    },
-    "え": {
-        "Japones": "え",
-        "Pronunciation": "e",
-        "Spanish": "pintura / cuadro"
     },
     "えいご": {
         "Japones": "えいご",
@@ -2344,20 +3589,10 @@
         "Pronunciation": "kotae",
         "Spanish": "respuesta"
     },
-    "ことし": {
-        "Japones": "ことし",
-        "Pronunciation": "kotoshi",
-        "Spanish": "este año"
-    },
     "こども": {
         "Japones": "こども",
         "Pronunciation": "kodomo",
         "Spanish": "niño, -ña / hijo, -ja"
-    },
-    "ざっし": {
-        "Japones": "ざっし",
-        "Pronunciation": "zasshi",
-        "Spanish": "revista"
     },
     "しずか(な)": {
         "Japones": "しずか(な)",
@@ -2374,11 +3609,6 @@
         "Pronunciation": "shusshin",
         "Spanish": "origen /ciudad(pueblo) natal"
     },
-    "しょうせつ": {
-        "Japones": "しょうせつ",
-        "Pronunciation": "shoosetsu",
-        "Spanish": "novela"
-    },
     "しんぱい(します)": {
         "Japones": "しんぱい(します)",
         "Pronunciation": "shinpai (shimasu)",
@@ -2388,16 +3618,6 @@
         "Japones": "じどうしゃ",
         "Pronunciation": "jidoosha",
         "Spanish": "automóvil"
-    },
-    "せんげつ": {
-        "Japones": "せんげつ",
-        "Pronunciation": "sengetsu",
-        "Spanish": "el mes pasado"
-    },
-    "せんしゅう": {
-        "Japones": "せんしゅう",
-        "Pronunciation": "senshuu",
-        "Spanish": "la semana pasada"
     },
     "たいせつ(な)": {
         "Japones": "たいせつ(な)",
@@ -2409,20 +3629,10 @@
         "Pronunciation": "chikaku",
         "Spanish": "cerca"
     },
-    "つぎ": {
-        "Japones": "つぎ",
-        "Pronunciation": "tsugi",
-        "Spanish": "siguiente / la próxima vez"
-    },
     "つよい": {
         "Japones": "つよい",
         "Pronunciation": "tsuyoi",
         "Spanish": "fuerte / intenso"
-    },
-    "てつだいます": {
-        "Japones": "てつだいます",
-        "Pronunciation": "tetsudaimasu",
-        "Spanish": "ayudar"
     },
     "てんき": {
         "Japones": "てんき",
@@ -2454,21 +3664,6 @@
         "Pronunciation": "narimasu",
         "Spanish": " hacerse"
     },
-    "はなし": {
-        "Japones": "はなし",
-        "Pronunciation": "hanashi",
-        "Spanish": "cuento / historia"
-    },
-    "はなします": {
-        "Japones": "はなします",
-        "Pronunciation": "hanashimasu",
-        "Spanish": "hablar"
-    },
-    "ひ": {
-        "Japones": "ひ",
-        "Pronunciation": "hi",
-        "Spanish": "día / fecha"
-    },
     "びょうき": {
         "Japones": "びょうき",
         "Pronunciation": "byooki",
@@ -2498,11 +3693,6 @@
         "Japones": "ほしい",
         "Pronunciation": "hoshii",
         "Spanish": "quiero..."
-    },
-    "ほん": {
-        "Japones": "ほん",
-        "Pronunciation": "hon",
-        "Spanish": "libro"
     },
     "ほんや": {
         "Japones": "ほんや",
@@ -2559,11 +3749,6 @@
         "Pronunciation": "keeki",
         "Spanish": "tarta / pastel / torta"
     },
-    "スポーツ": {
-        "Japones": "スポーツ",
-        "Pronunciation": "supootsu",
-        "Spanish": "deportes"
-    },
     "スーパー": {
         "Japones": "スーパー",
         "Pronunciation": "suupaa",
@@ -2588,11 +3773,6 @@
         "Japones": "バンガロール",
         "Pronunciation": "Bangarooru",
         "Spanish": "Bangalore"
-    },
-    "パーティー": {
-        "Japones": "パーティー",
-        "Pronunciation": "paathii",
-        "Spanish": "fiesta"
     },
     "ピーマン": {
         "Japones": "ピーマン",
@@ -2619,11 +3799,6 @@
         "Pronunciation": "ashi",
         "Spanish": "pierna"
     },
-    "あそびます": {
-        "Japones": "あそびます",
-        "Pronunciation": "asobimasu",
-        "Spanish": "jugar"
-    },
     "ありがとうございます": {
         "Japones": "ありがとうございます",
         "Pronunciation": "arigatoo gozaimasu",
@@ -2639,25 +3814,10 @@
         "Pronunciation": "imootosan",
         "Spanish": "(su) hermana menor"
     },
-    "うた": {
-        "Japones": "うた",
-        "Pronunciation": "uta",
-        "Spanish": "canción"
-    },
-    "うたいます": {
-        "Japones": "うたいます",
-        "Pronunciation": "utaimasu",
-        "Spanish": "cantar"
-    },
     "うち": {
         "Japones": "うち",
         "Pronunciation": "uchi",
         "Spanish": "casa"
-    },
-    "うれしい": {
-        "Japones": "うれしい",
-        "Pronunciation": "ureshii",
-        "Spanish": "feliz / contento, -ta"
     },
     "おくります": {
         "Japones": "おくります",
@@ -2724,11 +3884,6 @@
         "Pronunciation": "konoaida",
         "Spanish": "el otro día"
     },
-    "こんしゅう": {
-        "Japones": "こんしゅう",
-        "Pronunciation": "konshuu",
-        "Spanish": "esta semana"
-    },
     "しゃしん": {
         "Japones": "しゃしん",
         "Pronunciation": "shashin",
@@ -2774,11 +3929,6 @@
         "Pronunciation": "chichi",
         "Spanish": "(mi) padre"
     },
-    "ときどき": {
-        "Japones": "ときどき",
-        "Pronunciation": "tokidoki",
-        "Spanish": "a veces"
-    },
     "とくい(な)": {
         "Japones": "とくい(な)",
         "Pronunciation": "tokui(na)",
@@ -2788,11 +3938,6 @@
         "Japones": "とても／とっても",
         "Pronunciation": "totemo/tottemo",
         "Spanish": "muy"
-    },
-    "どようび": {
-        "Japones": "どようび",
-        "Pronunciation": "doyoobi",
-        "Spanish": "sábado"
     },
     "はな": {
         "Japones": "はな",
@@ -2818,16 +3963,6 @@
         "Japones": "まえ",
         "Pronunciation": "mae",
         "Spanish": "anterior"
-    },
-    "まご": {
-        "Japones": "まご",
-        "Pronunciation": "mago",
-        "Spanish": "nieto, -ta"
-    },
-    "また": {
-        "Japones": "また",
-        "Pronunciation": "mata",
-        "Spanish": "de nuevo / otra vez"
     },
     "むすこさん": {
         "Japones": "むすこさん",
@@ -2867,7 +4002,12 @@
     "メール": {
         "Japones": "メール",
         "Pronunciation": "meeru",
-        "Spanish": "e-mailＪポップ música pop japonésJ-poppu"
+        "Spanish": "e-mail"
+    },
+    "Ｊポップ": {
+        "Japones": "Ｊポップ",
+        "Pronunciation": "J-poppu",
+        "Spanish": "música pop japonés"
     },
     "～たち": {
         "Japones": "～たち",
@@ -2883,11 +4023,6 @@
         "Japones": "あたり",
         "Pronunciation": "atari",
         "Spanish": "de la vecindad"
-    },
-    "いいます": {
-        "Japones": "いいます",
-        "Pronunciation": "iimasu",
-        "Spanish": "decir"
     },
     "うんてん(します)": {
         "Japones": "うんてん(します)",
@@ -2913,11 +4048,6 @@
         "Japones": "かき",
         "Pronunciation": "kaki",
         "Spanish": "ostra"
-    },
-    "きのう": {
-        "Japones": "きのう",
-        "Pronunciation": "kinoo",
-        "Spanish": "ayer"
     },
     "くだもの": {
         "Japones": "くだもの",
@@ -3003,11 +4133,6 @@
         "Japones": "まいあさ",
         "Pronunciation": "maiasa",
         "Spanish": "todas las mañanas"
-    },
-    "まいにち": {
-        "Japones": "まいにち",
-        "Pronunciation": "mainichi",
-        "Spanish": "todos los días"
     },
     "ようしょく": {
         "Japones": "ようしょく",
@@ -3489,20 +4614,10 @@
         "Pronunciation": "arukimasu",
         "Spanish": "caminar / andar"
     },
-    "おげんきですか": {
-        "Japones": "おげんきですか",
-        "Pronunciation": "ogenki desu ka",
-        "Spanish": "¿Como está (usted)?"
-    },
     "おみせ": {
         "Japones": "おみせ",
         "Pronunciation": "omise",
         "Spanish": "tienda (expresión cortés)"
-    },
-    "おみやげ": {
-        "Japones": "おみやげ",
-        "Pronunciation": "omiyage",
-        "Spanish": "regalo / recuerdo"
     },
     "おります": {
         "Japones": "おります",
@@ -3524,11 +4639,6 @@
         "Pronunciation": "kasa",
         "Spanish": "paraguas"
     },
-    "かんこうち": {
-        "Japones": "かんこうち",
-        "Pronunciation": "kankoochi",
-        "Spanish": "lugares turísticos"
-    },
     "きもち": {
         "Japones": "きもち",
         "Pronunciation": "kimochi",
@@ -3544,25 +4654,10 @@
         "Pronunciation": "ki o tsukemasu",
         "Spanish": "cuidarse"
     },
-    "こわい": {
-        "Japones": "こわい",
-        "Pronunciation": "kowai",
-        "Spanish": "miedoso / da miedo"
-    },
-    "すずしい": {
-        "Japones": "すずしい",
-        "Pronunciation": "suzushii",
-        "Spanish": "fresco"
-    },
     "せつめい(します)": {
         "Japones": "せつめい(します)",
         "Pronunciation": "setsumee (shimasu)",
         "Spanish": "explicación (explicar)"
-    },
-    "そと": {
-        "Japones": "そと",
-        "Pronunciation": "soto",
-        "Spanish": "fuera / exterior / al aire libre"
     },
     "たいへん(な)": {
         "Japones": "たいへん(な)",
@@ -3583,11 +4678,6 @@
         "Japones": "なつ",
         "Pronunciation": "natsu",
         "Spanish": "verano"
-    },
-    "なつやすみ": {
-        "Japones": "なつやすみ",
-        "Pronunciation": "natsu-yasumi",
-        "Spanish": "vacaciones de verano"
     },
     "はしります": {
         "Japones": "はしります",
@@ -3694,11 +4784,6 @@
         "Pronunciation": "biichi",
         "Spanish": "playa"
     },
-    "モノレール": {
-        "Japones": "モノレール",
-        "Pronunciation": "monoreeru",
-        "Spanish": "monorraíl"
-    },
     "ライブハウス": {
         "Japones": "ライブハウス",
         "Pronunciation": "raibuhausu",
@@ -3707,7 +4792,12 @@
     "レンタカー": {
         "Japones": "レンタカー",
         "Pronunciation": "rentakaa",
-        "Spanish": "coche de alquilerＴシャツ camisetaT-shatsu"
+        "Spanish": "coche de alquiler"
+    },
+    "Ｔシャツ": {
+        "Japones": "Ｔシャツ",
+        "Pronunciation": "T-shatsu",
+        "Spanish": "camiseta"
     },
     "～ごろ": {
         "Japones": "～ごろ",
@@ -3743,11 +4833,6 @@
         "Japones": "おしろ／しろ",
         "Pronunciation": "oshiro",
         "Spanish": "castillo"
-    },
-    "おてら／てら": {
-        "Japones": "おてら／てら",
-        "Pronunciation": "otera/tera",
-        "Spanish": "templo"
     },
     "おひる": {
         "Japones": "おひる",
@@ -3809,11 +4894,6 @@
         "Pronunciation": "taiken (shimasu)",
         "Spanish": "experiencia"
     },
-    "つり（を　します）": {
-        "Japones": "つり（を　します）",
-        "Pronunciation": "tsuri (o shimasu)",
-        "Spanish": "pesca (pescar)"
-    },
     "のんびり": {
         "Japones": "のんびり",
         "Pronunciation": "nonbiri",
@@ -3853,21 +4933,6 @@
         "Japones": "むかし",
         "Pronunciation": "mukashi",
         "Spanish": "hace mucho tiempo /antigüedad /el pasaｄo"
-    },
-    "むりょう": {
-        "Japones": "むりょう",
-        "Pronunciation": "muryoo",
-        "Spanish": "gratis / gratuito"
-    },
-    "もちろん": {
-        "Japones": "もちろん",
-        "Pronunciation": "mochiron",
-        "Spanish": "Claro / por supuesto"
-    },
-    "やまのぼり（を　します）": {
-        "Japones": "やまのぼり（を　します）",
-        "Pronunciation": "yamanobori (o shimasu)",
-        "Spanish": "escalar la montaña"
     },
     "れきし": {
         "Japones": "れきし",
@@ -4044,16 +5109,6 @@
         "Pronunciation": "umai",
         "Spanish": "bueno, -na"
     },
-    "つまらない": {
-        "Japones": "つまらない",
-        "Pronunciation": "tsumaranai",
-        "Spanish": "aburrido"
-    },
-    "むずかしい": {
-        "Japones": "むずかしい",
-        "Pronunciation": "muzukashii",
-        "Spanish": "difícil"
-    },
     "若い": {
         "Japones": "若い",
         "Pronunciation": "wakai",
@@ -4108,11 +5163,6 @@
         "Japones": "おそい",
         "Pronunciation": "osoi",
         "Spanish": "tarde / lento, -a"
-    },
-    "かなしい": {
-        "Japones": "かなしい",
-        "Pronunciation": "kanashii",
-        "Spanish": "triste"
     },
     "ねむい": {
         "Japones": "ねむい",

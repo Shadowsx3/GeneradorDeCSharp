@@ -46,7 +46,11 @@ class Estudio:
             elif len(cadena[0]) == 0:
                 break
             try:
-                while not is_cjk(cadena[0][0]) and cadena[0][0] != "～":
+                while not is_cjk(cadena[0][0]):
+                    if len(cadena[0]) > 1:
+                        if is_cjk(cadena[0][1]):
+                            print("Salteado")
+                            break
                     spanish += cadena.pop(0)
             except:
                 None

@@ -2,7 +2,7 @@ import os
 from os.path import isfile
 
 import pdfplumber
-from Generico import RemoverNumPag, Guardar, cargar, GuardarJ, Leer
+from Generico import RemoverNumPag, Guardar, cargar, Leer
 from Objeto import Estudio
 
 Palabras = cargar("Palabras")
