@@ -74,25 +74,32 @@ class Estudio:
     def GetTarjeta(self):
         informacion = self.GetInfo()
         palabras = self.GetPalabras()
-        formateado = []
-        [formateado.extend([i["Japones"], i["Pronunciation"], i["Spanish"]]) for i in list(palabras.values())]
-        largo = [informacion[i] for i in list(informacion.keys()) if i != "Palabras"]
-        largo2 = list(informacion.keys())
-        second = MaxLargo(largo) + MaxLargo(largo2)
-        actual = MaxLargo(formateado)*3
-        if second > actual:
-            actual = second
-        cuadro = "-" * (actual +2)
+        categorias = {"Japones": [], "Pronunciation": [], "Spanish": []}
+        formateado = {}
+        for j in categorias.keys():
+            [categorias[j].extend([i[j]]) for i in list(palabras.values())]
+            formateado[j] = MaxLargo(categorias[j])
+        largo = MaxLargo([informacion[i] for i in list(informacion.keys()) if i != "Palabras"])
+        largo2 = MaxLargo(list(informacion.keys()))
+        largo_info = largo + largo2
+        largo_palabras = sum(list(formateado.values()))
+        if largo_info > largo_palabras:
+            largo_palabras = largo_info
+            for i in formateado.keys():
+                formateado[i] = largo_palabras//3
+        else:
+            largo = largo_palabras - largo2
+            largo2 = largo_palabras - largo
+        cuadro = "-" * (largo_palabras +4+formateado["Japones"]//2)
         cadena = cuadro
         cadena += "".join(
-            [f'\n|{i.center(actual//2)}|{informacion[i].center(actual//2)}|'
+            [f'\n|{i.center(largo2+formateado["Japones"]//2+1)}|{informacion[i].center(largo)}|'
              for i in list(informacion.keys()) if i != "Palabras"])
         cadena += f'\n{cuadro}'
-        espacio = actual//3
-        cadena += f'\n|{"Japones".center(espacio-2)}|{"Pronunciation".center(espacio)}|{"Spanish".center(espacio)}|'
+        cadena += f'\n|{"Japones".center(formateado["Japones"]+formateado["Japones"]//2)}|{"Pronunciation".center(formateado["Pronunciation"])}|{"Spanish".center(formateado["Spanish"])}|'
         for i in palabras.values():
             cadena += f'\n{cuadro}'
-            cadena += f'\n|{i["Japones"].center(espacio-len(i["Japones"]))}|{i["Pronunciation"].center(espacio)}|{i["Spanish"].center(espacio)}|'
+            cadena += f'\n|{i["Japones"].center(formateado["Japones"]+((formateado["Japones"]-len(i["Japones"]))//2))}|{i["Pronunciation"].center(formateado["Pronunciation"])}|{i["Spanish"].center(formateado["Spanish"])}|'
         cadena += f'\n{cuadro}'
         return cadena
 
