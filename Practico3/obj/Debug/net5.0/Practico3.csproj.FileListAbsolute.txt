@@ -1,0 +1,16 @@
+C:\Users\manue\Desktop\Programacion\Practico3\obj\Debug\net5.0\Practico3.csproj.AssemblyReference.cache
+C:\Users\manue\Desktop\Programacion\Practico3\obj\Debug\net5.0\Practico3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\manue\Desktop\Programacion\Practico3\obj\Debug\net5.0\Practico3.AssemblyInfoInputs.cache
+C:\Users\manue\Desktop\Programacion\Practico3\obj\Debug\net5.0\Practico3.AssemblyInfo.cs
+C:\Users\manue\Desktop\Programacion\Practico3\obj\Debug\net5.0\Practico3.csproj.CoreCompileInputs.cache
+C:\Users\manue\Desktop\Programacion\Practico3\bin\Debug\net5.0\Practico3.exe
+C:\Users\manue\Desktop\Programacion\Practico3\bin\Debug\net5.0\Practico3.deps.json
+C:\Users\manue\Desktop\Programacion\Practico3\bin\Debug\net5.0\Practico3.runtimeconfig.json
+C:\Users\manue\Desktop\Programacion\Practico3\bin\Debug\net5.0\Practico3.runtimeconfig.dev.json
+C:\Users\manue\Desktop\Programacion\Practico3\bin\Debug\net5.0\Practico3.dll
+C:\Users\manue\Desktop\Programacion\Practico3\bin\Debug\net5.0\ref\Practico3.dll
+C:\Users\manue\Desktop\Programacion\Practico3\bin\Debug\net5.0\Practico3.pdb
+C:\Users\manue\Desktop\Programacion\Practico3\obj\Debug\net5.0\Practico3.dll
+C:\Users\manue\Desktop\Programacion\Practico3\obj\Debug\net5.0\ref\Practico3.dll
+C:\Users\manue\Desktop\Programacion\Practico3\obj\Debug\net5.0\Practico3.pdb
+C:\Users\manue\Desktop\Programacion\Practico3\obj\Debug\net5.0\Practico3.genruntimeconfig.cache
