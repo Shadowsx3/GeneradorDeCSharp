@@ -2,6 +2,7 @@ using System;
 
 namespace Practico3.Clases
 {
+    //Hereda de la clase persona, todas sus funciones, variables ... para ahorrar codigo y facilitar la implementacion
     public class Alumno : Persona
     {
         private int _idAlumno;

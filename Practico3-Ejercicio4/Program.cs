@@ -35,15 +35,37 @@ namespace Test
     {
         static void Main(string[] args)
         {
+            //CASO 1 // Persona objPersona = new Persona(“Baruch”, “Spinoza”);
             Persona objPersona = new Persona("Baruch", "Spinoza");
+            
+            //CASO 2 // objPersona.getNombre();
             objPersona.getNombre();
+            
+            //CASO 3 // objPersona.getIdDocente();
+            //Removido ya que persona no tiene un id doncente
+            
+            //CASO 4 // Docente objDocente = new Persona(“Georg”, “Hegel”);
             Persona objDocente = new Docente("Georg", "Hegel",3);
+            
+            //CASO 5 // Persona objDocente2 = new Docente(“Immanuel”, “Kant”,1);
             Docente objDocente2 = new Docente("Immanuel", "Kant",1);
+            
+            //CASO 6 // objDocente2.getApellido();
             objDocente2.getApellido();
+            
+            //CASO 7 // objDocente2.getIdDocente();
             objDocente2.getIdDocente();
+            
+            //CASO 8 // objDocente2.nombre = “Emanuel”;
             objDocente2.setNombre("Emanuel");
+            
+            //CASO 9 // objDocente2.apellido = “Kant”;
             objDocente2.setApellido("Kant");
+            
+            //CASO 10 // objPersona.setNombre(“Baruj”);
             objPersona.setNombre("Baruj");
+            
+            //CASO 11 // objPersona.setApellido(“Espinosa”);
             objPersona.setApellido("Espinosa");
         }
     }

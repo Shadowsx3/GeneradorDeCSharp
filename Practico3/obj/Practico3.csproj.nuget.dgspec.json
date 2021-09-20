@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\manue\\Desktop\\Programacion\\Practico3\\Practico3.csproj": {}
+    "C:\\Users\\manue\\Desktop\\Final\\GeneradorDeCSharp\\Practico3\\Practico3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\manue\\Desktop\\Programacion\\Practico3\\Practico3.csproj": {
+    "C:\\Users\\manue\\Desktop\\Final\\GeneradorDeCSharp\\Practico3\\Practico3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\manue\\Desktop\\Programacion\\Practico3\\Practico3.csproj",
+        "projectUniqueName": "C:\\Users\\manue\\Desktop\\Final\\GeneradorDeCSharp\\Practico3\\Practico3.csproj",
         "projectName": "Practico3",
-        "projectPath": "C:\\Users\\manue\\Desktop\\Programacion\\Practico3\\Practico3.csproj",
+        "projectPath": "C:\\Users\\manue\\Desktop\\Final\\GeneradorDeCSharp\\Practico3\\Practico3.csproj",
         "packagesPath": "C:\\Users\\manue\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\manue\\Desktop\\Programacion\\Practico3\\obj\\",
+        "outputPath": "C:\\Users\\manue\\Desktop\\Final\\GeneradorDeCSharp\\Practico3\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
