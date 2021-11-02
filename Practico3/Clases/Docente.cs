@@ -7,7 +7,8 @@ namespace Practico3.Clases
     {
         private uint _idDocente;
         public uint idDocente { get => _idDocente; set => _idDocente = value; }
-        new public void Presentarse(){
+        //Se sobreescribe la funcion presentarse de la clase padre
+        public override void Presentarse(){
             Console.WriteLine($"Ocupacion: Docente, El nombre es: {this.nombre}, el apellido es: {this.apellido}");
         }
         public Docente(string xNombre, string xApellido, string xDocumento, uint xIdDocente):base(xNombre, xApellido, xDocumento) {

@@ -7,7 +7,7 @@ namespace Practico3.Clases
     {
         private int _idAlumno;
         public int idAlumno { get => _idAlumno; set => _idAlumno = value; }
-        new public void Presentarse(){
+        public override void Presentarse(){
         
             Console.WriteLine($"Ocupacion: Alumno, El nombre es: {this.nombre}, el apellido es: {this.apellido}");
         }

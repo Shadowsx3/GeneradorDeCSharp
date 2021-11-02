@@ -24,6 +24,8 @@ namespace Practico3.Clases
             this.nombre = xNombre;
             this.apellido = xApellido;
         }
+        //Constructor con 3 argumentos que incluye la incializacion de el documento, se adopta esto
+        // para que el codigo esté cerrado a modificiaciones y abierto a extensiones
         public Persona(string xNombre, string xApellido, string xDocumento){
             this.nombre = xNombre;
             this.apellido = xApellido;
@@ -33,8 +35,8 @@ namespace Practico3.Clases
         public override string ToString(){
             return $"El nombre es: {this.nombre}, el apellido es: {this.apellido}";
         }
-        //Funcion publica que no retorna
-        public void Presentarse(){
+        //Funcion que presenta a la persona que no retorna
+        public virtual void Presentarse(){
             Console.WriteLine($"Mi nombre es {nombre}");
         }
     }
