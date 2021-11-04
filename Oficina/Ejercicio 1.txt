@@ -1,0 +1,100 @@
+Parte I
+Enumerar cada uno de los principios de SOLID con sus
+respectivos ejemplos.
+
+
+S- Singles responsability principle: Cada clase debe tener una unico motivo para cambiar y estar bien definida.
+O- Open/Close principle: Las clases tienen que estar abiertas a extenciones y cerradas a modificaciones.
+L- Liskov substitution principle: Una clase que hereda de otra debe de poder sustituir a la clase padre sin necesitar modificaciones.
+I- Interface segregation principle: Las interfaces tienen que ser creadas para su requerimiento y no para propositios generales, se debe 
+separar estas segun lo que se requiera.
+D- Dependency inversion principle: Se debe depender de abstracciones y no de implementaciones especificas.
+
+Ejemplos
+S:
+public class Animal{
+	private string nombre;
+	public Animal(string Nombre){
+		nombre = Nombre;
+		}
+	public void Hablar(){
+		Console.WriteLine("*El animal habló");
+	}
+}
+La clase tiene una función bien definida y un unico motivo para cambiar
+O:
+public class Animal{
+	private string nombre;
+	public Animal(string Nombre){
+		nombre = Nombre;
+		}
+}
+Ahora si quisieramos agregar un animal acuatico creariamos otra clase
+public class AquaticAnimal: Animal{
+	private int numEscamas;
+	public AquaticAnimal(string Nombre, int NumEscamas) : base(Nombre){
+		numEscamas = NumEscamas;
+	}
+}
+
+L:
+public class Animal{
+	private string nombre;
+	public Animal(string Nombre){
+		nombre = Nombre;
+		}
+}
+Ahora si quisieramos agregar un animal acuatico creariamos otra clase
+public class AquaticAnimal: Animal{
+	private int numEscamas;
+	public AquaticAnimal(string Nombre, int NumEscamas) : base(Nombre){
+		numEscamas = NumEscamas;
+	}
+}
+(En main)
+static void Main(string[] args)
+        {
+			Animal perro = new AquaticAnimal("Hola", 5);
+		}
+
+I:
+public interface ICuidador{
+	void HacerRuido();
+}
+public interface INadador{
+	void Nadar();
+}
+public class Cuidador: ICuidador{
+	private string nombre;
+	public void HacerRuido(){}
+	public Cuidador(string Nombre){
+		nombre = Nombre;
+		}
+}
+No necesariamente se tienen que crear interfaces como
+IPersona que tenga ambas, porque puede que al utilizarlas tengamos que añadir mas cosas de las que aportan y realmente no se usen.
+
+D:
+public interface IPatitas{
+	string araniar();
+}
+public class PatitasRojas{
+	public string araniar(){
+		Console.WriteLine("Arania con sus patitas rojas");
+	};
+}
+public class Animal{
+	private string nombre;
+	private IPatas patitas;
+	public Animal(string Nombre, IPatas Patitas){
+		nombre = Nombre;
+		patitas = Patitas;
+		}
+}
+static void Main(string[] args)
+        {
+			PatitasRojas p = new PatitasRojas();
+			Animal perro = Animal("Hola", p);
+		}
+
+	

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\manue\\Documents\\Visual Studio 2019\\Projects\\Oficina\\Oficina.csproj": {}
+    "C:\\Users\\manue\\Desktop\\Final\\GeneradorDeCSharp\\Oficina\\Oficina.csproj": {}
   },
   "projects": {
-    "C:\\Users\\manue\\Documents\\Visual Studio 2019\\Projects\\Oficina\\Oficina.csproj": {
+    "C:\\Users\\manue\\Desktop\\Final\\GeneradorDeCSharp\\Oficina\\Oficina.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\manue\\Documents\\Visual Studio 2019\\Projects\\Oficina\\Oficina.csproj",
+        "projectUniqueName": "C:\\Users\\manue\\Desktop\\Final\\GeneradorDeCSharp\\Oficina\\Oficina.csproj",
         "projectName": "Oficina",
-        "projectPath": "C:\\Users\\manue\\Documents\\Visual Studio 2019\\Projects\\Oficina\\Oficina.csproj",
+        "projectPath": "C:\\Users\\manue\\Desktop\\Final\\GeneradorDeCSharp\\Oficina\\Oficina.csproj",
         "packagesPath": "C:\\Users\\manue\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\manue\\Documents\\Visual Studio 2019\\Projects\\Oficina\\obj\\",
+        "outputPath": "C:\\Users\\manue\\Desktop\\Final\\GeneradorDeCSharp\\Oficina\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
