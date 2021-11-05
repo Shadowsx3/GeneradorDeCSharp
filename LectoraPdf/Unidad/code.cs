@@ -1,14 +1,9 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Oficina
 {
-    public interface IUsuario
-    {
-        void AddItem(Objeto o);
-        void ConsumeItem(Objeto o);
-    }
     public class Usuario
     {
         private string _cedula;

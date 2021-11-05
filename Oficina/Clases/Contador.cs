@@ -7,6 +7,20 @@ using Newtonsoft.Json;
 
 namespace Oficina
 {
+    public interface IContador
+    {
+        void GuardarUsuarios();
+        void GuardarTienda();
+        void GuardarTareas();
+        void AddUser(Usuario u);
+        void DoTask(string Cedula, int Tarea);
+        void DelTask(int Tarea);
+        void AddObj(Objeto o);
+        void AddTask(Tarea t);
+        string LeerArchivo(string Direccion, bool pref = false);
+        void AddItem(string Cedula, int Item);
+        void ConsumeItem(string Cedula, int Item);
+    }
     public class Contador
     {
         private string path = $"{Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments)}/Shadow/";
