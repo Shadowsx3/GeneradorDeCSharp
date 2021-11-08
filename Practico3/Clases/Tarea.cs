@@ -1,4 +1,7 @@
 
+using System.Collections;
+using System;
+using System.Collections.Generic;
 namespace Practico3.Clases
 {
     class Tarea
@@ -6,10 +9,16 @@ namespace Practico3.Clases
         private string _nombre;
         private string _idTarea;
         private string _contenido;
-        private string _respuestas;
+        private List<string> _respuestas;
+        private List<string> _respuestasCorrectas;
         public string nombre => _nombre;
         public string idTarea => _idTarea;
         public string contenido => _contenido;
-        public string respuestas => _respuestas;
+        public List<string> respuestas 
+        { 
+            get => _respuestas;
+            set => _respuestas = value;
+        }
+        public List<string> respuestasCorrectas => _respuestasCorrectas;
     }
 }

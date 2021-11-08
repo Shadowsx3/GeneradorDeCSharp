@@ -22,5 +22,13 @@ namespace Practico3.Clases
             get => _listAlumnos;
             set => _listAlumnos = value;
         }
+        public void ListarPersonas(){
+            Console.WriteLine("Alumnos:");
+            foreach(Alumno a in _listAlumnos){
+                Console.WriteLine(a.apellido);
+            }
+            Console.WriteLine("Docente:");
+            Console.WriteLine(_titular.apellido);
+        }
     }
 }

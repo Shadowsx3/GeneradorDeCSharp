@@ -37,7 +37,7 @@ namespace Practico3.Clases
         }
         //Funcion que presenta a la persona que no retorna
         public virtual void Presentarse(){
-            Console.WriteLine($"Mi nombre es {nombre}");
+            Console.WriteLine($"Mi nombre es {nombre} {apellido}");
         }
     }
 }

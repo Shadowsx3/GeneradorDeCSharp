@@ -11,6 +11,7 @@ namespace Practico3
             Console.WriteLine(Indicacion);
             return Console.ReadLine();
         }
+        //Parte 1
         static void Main(string[] args)
         {
             List<Persona> personas = new List<Persona>();
@@ -25,7 +26,12 @@ namespace Practico3
                     persona1 = new Persona(nombre, apellido, documento);
                 }
                 personas.Add(persona1);
+                persona1.Presentarse();
             }
+            Docente profesor = new Docente("Juan", "Pedro", "4534", 4234324);
+            profesor.Presentarse();
+            Alumno alumno = new Alumno("Pedro", "Pedro", "45345", 4234325);
+            alumno.Presentarse();
         }
     }
 }
