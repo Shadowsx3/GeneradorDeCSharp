@@ -32,6 +32,19 @@ namespace Practico3
             profesor.Presentarse();
             Alumno alumno = new Alumno("Pedro", "Pedro", "45345", 4234325);
             alumno.Presentarse();
+            
+            //Parte 2 y 3
+            WebAsignatura w = new WebAsignatura();
+            Curso c = new Curso(profesor, w, new List<Alumno>(){alumno});
+            Tarea t = new Tarea("Nada", "1", "Sobre nada", new List<string>(){"NAadada"} );
+            c.AgregarTarea(t, profesor);
+            //Se usa para copiar
+            Tarea t1 = alumno.ResponderTarea(c.CopiarTarea(0), new List<string>(){"NAadada1"});
+            //Se añade a la web
+            c.RealizarTarea(0, t1);
+            c.ListarPersonas();
+            //Ahora listamos tareas
+            c.ListarTareas();
         }
     }
 }

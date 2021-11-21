@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 namespace Practico3.Clases
 {
-    class Tarea
+    public class Tarea
     {
         private string _nombre;
         private string _idTarea;
@@ -19,6 +19,15 @@ namespace Practico3.Clases
             get => _respuestas;
             set => _respuestas = value;
         }
+
+        public Tarea(string nombre, string idTarea, string contenido, List<string> respuestasCorrectas)
+        {
+            _nombre = nombre;
+            _idTarea = idTarea;
+            _contenido = contenido;
+            _respuestasCorrectas = respuestasCorrectas;
+        }
+
         public List<string> respuestasCorrectas => _respuestasCorrectas;
     }
 }

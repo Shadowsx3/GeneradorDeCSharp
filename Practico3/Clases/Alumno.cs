@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace Practico3.Clases
 {
@@ -14,5 +15,12 @@ namespace Practico3.Clases
         public Alumno(string xNombre, string xApellido, string xDocumento, int xIdAlumno) :base(xNombre, xApellido, xDocumento){
             this.idAlumno = xIdAlumno;
         }
+
+        public Tarea ResponderTarea(Tarea t, List<String> respuestas)
+        {
+            t.respuestas = respuestas;
+            return t;
+        }
+        
     }
 }

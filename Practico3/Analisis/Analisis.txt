@@ -1,0 +1,39 @@
+PARTE I
+Seguir el paso a paso y explicar cada concepto asociado a éstos.
+● Crear una clase Persona.
+● Agregar los atributos nombre y apellido con nivel de acceso public.
+● Pedir por consola nombre y apellido de una persona.
+● Instanciar una Persona, e inicializar sus atributos con los valores ingresados.
+● Sobreescribir el método ToString para que el objeto imprima sus atributos.
+● Agregar el atributo documento con nivel de acceso private.
+● Agregar dos personas más de la misma forma, inicializando también el atributo
+documento.
+Justificar las decisiones de diseño.
+● Aplicar encapsulamiento a la clase creada. Explique y justifique los cambios.
+● Crear un método que permita a una Persona presentarse.
+● Crear las subclases Docente y Alumno de Persona.
+Docente debe poseer el atributo idDocente.
+Alumno debe poseer el atributo idAlumno.
+Aplique encapsulamiento y justifique.
+● Sobreescribir el método de presentación para cada subclase indicando la
+“ocupación” de cada uno al principio.
+● EXTRA: crear una interface para Persona.
+PARTE II
+A partir de éste punto, los datos pueden ser cargados manualmente en el código:
+● Crear la clase WebAsignatura, que contenga como atributo una lista de objetos
+del tipo Tarea llamada ListaTareas.
+● Cada Tarea debe tener un identificador (idTarea), un nombre, un contenido y
+respuestas.
+● Crear una clase llamada Curso, que tenga como atributo un docente titular,
+una WebAsignatura y una lista de alumnos.
+PARTE III
+A partir de lo ya creado:
+● Debe existir un método que permita al Docente agregar una Tarea a la lista de
+Tareas de WebAsignatura con las respuestas correctas.
+● Debe existir un método que permita al Alumno copiar una tarea, e ingresar sus
+propias respuestas, que sean guardadas en un atributo propio llamado
+ListaTareasRealizadas.
+● Debe existir un método que permita al Docente listar las tareas realizadas de todos
+los alumnos del curso.
+● Debe existir un método que permita listar todas las personas relacionadas a un
+curso.

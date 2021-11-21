@@ -14,5 +14,6 @@ namespace Practico3.Clases
         public Docente(string xNombre, string xApellido, string xDocumento, uint xIdDocente):base(xNombre, xApellido, xDocumento) {
             this.idDocente = xIdDocente;
         }
+        
     }
 }

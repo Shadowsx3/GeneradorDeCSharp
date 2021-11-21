@@ -1,0 +1,7 @@
+C:\Users\manue\Desktop\Final\GeneradorDeCSharp\PracticoNoObligatorio\bin\Debug\PracticoNoObligatorio.exe
+C:\Users\manue\Desktop\Final\GeneradorDeCSharp\PracticoNoObligatorio\bin\Debug\PracticoNoObligatorio.pdb
+C:\Users\manue\Desktop\Final\GeneradorDeCSharp\PracticoNoObligatorio\obj\Debug\PracticoNoObligatorio.csproj.AssemblyReference.cache
+C:\Users\manue\Desktop\Final\GeneradorDeCSharp\PracticoNoObligatorio\obj\Debug\PracticoNoObligatorio.csproj.SuggestedBindingRedirects.cache
+C:\Users\manue\Desktop\Final\GeneradorDeCSharp\PracticoNoObligatorio\obj\Debug\PracticoNoObligatorio.csproj.CoreCompileInputs.cache
+C:\Users\manue\Desktop\Final\GeneradorDeCSharp\PracticoNoObligatorio\obj\Debug\PracticoNoObligatorio.exe
+C:\Users\manue\Desktop\Final\GeneradorDeCSharp\PracticoNoObligatorio\obj\Debug\PracticoNoObligatorio.pdb
