@@ -1,0 +1,124 @@
+Parcial II - Programación Orientada a Objetos - 29/11/2021
+Parte I)
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-..-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-..-.-.-.-.-.
+1. Desarrolle los siguientes conceptos: 
+SRP)
+Singles responsability principle: Cada clase debe tener una unico motivo para cambiar y estar bien definida.
+
+OCP)
+Open/Close principle: Las clases tienen que estar abiertas a extenciones y cerradas a modificaciones.
+
+LSP)
+Liskov substitution principle: Una clase que hereda de otra debe de poder sustituir a la clase padre sin necesitar modificaciones.
+
+ISP)
+Interface segregation principle: Las interfaces tienen que ser creadas para su requerimiento y no para propositios generales, se debe 
+separar estas segun lo que se requiera.
+
+DIP)
+Dependency inversion principle: Se debe depender de abstracciones y no de implementaciones especificas.
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-..-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-..-.-.-.-.-.
+
+2. Observe los siguientes casos e indique si cumplen o no con SOLID y qué debería hacerse para que cumpla con éste.
+(Ya corregidos)
+//Debido al principio de interface segregation es mejor separar lo que se hará en distintas interfaces mas especificas, para no 
+//obligar a utilizar todo, en este caso no se entiende la diferencia entre new post and post pero otro caso seria el siguiente
+Caso 1 
+interface IPost
+{
+void CreatePost();
+}
+interface IPostNew
+{
+//void CreatePost(); al comentar esto si quiere algo mas puede usar IPost, y IPostNew, de esta forma un cambio en IPost se 
+//verá reflejado en ambos, y no es necesario ir a IPostNew y actualizarlo
+void ReadPost();
+}
+
+Caso 2
+Deseo agregar el atributo
+color
+public class Car {
+private String brand;
+private String model;
+//Constructors, getters &setters
+}
+//Se crea otra clase que implemente el atributo debido a open closed principle, en esta se añade un constructor 
+//que incluya este y los demas
+public class CarWithColor :Car{
+private string _color;
+//Constructors, getters &setters
+}
+
+Caso 3
+//Imaginemos que luego tendremos distintos tipos de motores y a su vez estos serán distintos, en este caso es mejor depender
+//de una abstraccion y no de una implementacion, Dependency Inversion Principle, estaba bien aplicado ya que no es especifico
+//pero se puede mejorar un poco más para generalizar el uso
+public interface IEngine{
+//stuff like go brrrr
+}
+public class Engine: IEngine {
+// stuff
+}
+public class Car {
+private IEngine engine;
+public Car(IEngine xEngine)
+{
+this.engine = xEngine;
+}
+}
+
+Parte II
+.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-..-.-.-.-.-.-.-.-.-.-
+En una tienda se desea avisar cuando el stock de ciertos productos es repuesto
+según las necesidades de cada cliente frecuente.
+Se sabe que existe una lista para clientes frecuentes de alimentos procesados y otra
+
+/////////////////////////No considero adecuado tener N listas para N tipos de alimentos, es mejor tener un filtro/////////////
+
+para alimentos orgánicos.
+Cuando un alimento es repuesto por un reponedor (agregando un elemento a una
+lista), dependiendo de qué tipo sea el alimento, sus consumidores frecuentes serán
+notificados, a través de una clase notificadora que debe tener una única instancia.
+Los clientes deberían ser capaces de remover elementos de la lista; esta acción
+puede no ser notificada, pero si es necesaria la implementación de dicha funcionalidad,
+donde una excepción debe ser lanzada si se intenta extraer un elemento cualquiera de la
+lista de productos vacía.
+Imagine que, una vez terminado el programa, debe agregar un nuevo tipo de
+alimento “elaborado”. Haga los cambios necesarios para que ésto sea posible y también
+pueda notificar a clientes frecuentes de dicha lista.
+Justifique decisiones de diseño.
+No es necesario agregar de forma dinámica los datos, se evaluará el correcto
+uso de patrones de diseño, principios SOLID y control de excepciones
+
+Analisis:
+Enum de tipos de alimentos
+Clases:
+	-Tienda
+		(Es la que notifica)
+		(Implementa singleton)
+		(Aqui se guardan las listas de clientes y alimentos)
+	-Cliente
+		+Nombre
+		+Lista de tipos de productos que le gustan (string)
+		()Remover alimento -> 
+			{
+			(No se pueden sacar elementos de una lista vacia)
+			(Avisará a los demas de que ya no esta ese producto)
+			}
+	-Reponedor
+		+Nombre
+		()Agregar alimento -> Esto desencadena la notificacion a los clientes
+	-Alimento
+		+Nombre
+		+Tipo
+	-Procesado:
+		+Numero de procesos
+	-Organico:
+		+Nombre de la graja de donde salio
+	-Elaborado:
+		+Nombre del elaborador
+	(
+	El factory no seria necesario con este enfoque, aun asi debido a conveniencias(aprobar) se utilizará en el caso
+	de los alimentos
+	)

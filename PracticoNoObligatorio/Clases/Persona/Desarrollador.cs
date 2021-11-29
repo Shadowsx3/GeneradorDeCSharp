@@ -11,12 +11,11 @@
 
         public void RealizarTarea(Tarea tarea)
         {
-            SystemManager.RealizarTarea(tarea);
+            SystemManager.GetInstance().RealizarTarea(tarea);
         }
-
         public void TomarTarea(Tarea tarea)
         {
-            SystemManager.AceptarTarea(tarea, this);
+            SystemManager.GetInstance().AceptarTarea(tarea, this);
         }
     }
 }

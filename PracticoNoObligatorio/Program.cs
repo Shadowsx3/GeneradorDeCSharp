@@ -7,18 +7,18 @@ namespace PracticoNoObligatorio
     {
         public static void Main(string[] args)
         {
-            
-            Cliente c = new Cliente("Pedro");
-            Cliente c1 = new Cliente("Pedrozo");
-            Desarrollador d = new Desarrollador("Juan");
-            Desarrollador d1 = new Desarrollador("Juanito");
-            Administador a = new Administador("Pablo");
-            Administador a1 = new Administador("Pablozo");
-            List<IPersona> personas = new List<IPersona>(){c, c1, d, d1, a, a1};
-            SystemManager.Personas = personas;
+            PeopleFormer pf = new PeopleFormer();
+            var c = (Cliente)pf.MakeOne("Cliente", "Pedro");
+            var c1 = (Cliente)pf.MakeOne("Cliente", "Pedrozo");
+            var d = (Desarrollador)pf.MakeOne("Desarrollador", "Juan");
+            var d1 = (Desarrollador)pf.MakeOne("Desarrollador", "Juanito");
+            var a = (Administador)pf.MakeOne("Administrador","Pablo");
+            var a1 = (Administador)pf.MakeOne("Administrador","Pablozo");
+            var personas = new List<IPersona>(){c, c1, d, d1, a, a1};
+            SystemManager.GetInstance().Personas = personas;
             //Ahora se añade una nueva tarea
-            Tarea t = new Tarea(c, "Bailar");
-            Tarea t2 = new Tarea(c1, "Cantar");
+            var t = new Tarea(c, "Bailar");
+            var t2 = new Tarea(c1, "Cantar");
             c.AñadirTarea(t);
             c1.AñadirTarea(t2);
             a.CambiarEstado(t,true);

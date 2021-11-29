@@ -4,19 +4,19 @@ using System.Linq;
 
 namespace PracticoNoObligatorio.Clases
 {
-    public class SystemManager : ISystemManager
+    public sealed class SystemManager : ISystemManager
     {
         private static SystemManager _instance;
-        private static List<Tarea> _tareas = new List<Tarea>();
-        private static List<IPersona> _personas = new List<IPersona>();
+        private List<Tarea> _tareas = new List<Tarea>();
+        private List<IPersona> _personas = new List<IPersona>();
 
-        public static List<Tarea> Tareas
+        public List<Tarea> Tareas
         {
             get => _tareas;
             set => _tareas = value;
         }
 
-        public static List<IPersona> Personas
+        public List<IPersona> Personas
         {
             get => _personas;
             set => _personas = value;
@@ -28,7 +28,7 @@ namespace PracticoNoObligatorio.Clases
         }
         private SystemManager(){}
 
-        public SystemManager GetInstance()
+        public static SystemManager GetInstance()
         {
             if (_instance == null)
             {
@@ -37,7 +37,7 @@ namespace PracticoNoObligatorio.Clases
             return _instance;
         }
 
-        private static void Notificar(Tarea t, string accion)
+        private void Notificar(Tarea t, string accion)
         {
             foreach (var p in _personas)
             {
@@ -55,7 +55,7 @@ namespace PracticoNoObligatorio.Clases
             Notificar(id, accion);
         }
 
-        public static void AgregarTarea(Tarea t)
+        public void AgregarTarea(Tarea t)
         {
             try{
                 Notificar(t, "nueva tarea");
@@ -82,7 +82,7 @@ namespace PracticoNoObligatorio.Clases
             CambiarAprobacion(tarea, aprobada);
         }
 
-        public static void RealizarTarea(Tarea tarea)
+        public void RealizarTarea(Tarea tarea)
         {
             try{
                 foreach (var t in _tareas.Where(t => t == tarea))
@@ -98,7 +98,7 @@ namespace PracticoNoObligatorio.Clases
             }
         }
 
-        public static void AceptarTarea(Tarea tarea, Desarrollador desarrollador)
+        public void AceptarTarea(Tarea tarea, Desarrollador desarrollador)
         {
             try
             {
@@ -114,7 +114,7 @@ namespace PracticoNoObligatorio.Clases
             }
         }
 
-        public static void CambiarAprobacion(Tarea tarea, bool aprobada)
+        public void CambiarAprobacion(Tarea tarea, bool aprobada)
         {
             try
             {

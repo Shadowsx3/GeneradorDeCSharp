@@ -11,7 +11,7 @@
 
         public void CambiarEstado(Tarea t, bool estado)
         {
-            SystemManager.CambiarAprobacion(t, estado);
+            SystemManager.GetInstance().CambiarAprobacion(t, estado);
         }
     }
 }

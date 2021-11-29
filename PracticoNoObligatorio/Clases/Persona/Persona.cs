@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace PracticoNoObligatorio.Clases
 {
-    public abstract class Persona: IPersona
+    public class Persona: IPersona
     {
         protected string _nombre = "";
         protected string _tipo = "";
@@ -35,7 +35,7 @@ namespace PracticoNoObligatorio.Clases
             }
         }
 
-        public void Reaccion(string accion, Tarea t)
+        private void Reaccion(string accion, Tarea t)
         {
             Console.WriteLine($"El {Tipo()} llamado {_nombre} ha recibido la alerta de {accion} para {t.Actividad}");
         }

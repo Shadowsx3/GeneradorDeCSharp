@@ -19,7 +19,7 @@
 
         public void AñadirTarea(Tarea t)
         {
-            SystemManager.AgregarTarea(t);
+            SystemManager.GetInstance().AgregarTarea(t);
         }
     }
 }
