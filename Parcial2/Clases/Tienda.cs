@@ -37,20 +37,21 @@ namespace Parcial2.Clases
             set => _alimentos = value;
         }
 
-        private void Notificar(IAlimento a, string accion)
+        private void Notificar(IAlimento a, string accion, string comprador = "")
         {
-            foreach (var c in _personas)
+            foreach (var c in _personas.Where(o => o.GetNombre() != comprador))
             {
                 c.Avisar(a, accion);
             }
         }
+        
         public void AgregarAlimento(IAlimento a)
         {
             Console.WriteLine($"-Se agregó {a.Nombre()}-");
             _alimentos.Add(a);
             Notificar(a, TiposAcciones.Agregado);
         }
-        public void EliminarAlimento(string nombre)
+        public void EliminarAlimento(string nombre, string comprador)
         {
             try
             {
@@ -58,11 +59,16 @@ namespace Parcial2.Clases
                 {
                     throw new VoidException();
                 }
+
                 List<IAlimento> copia = new List<IAlimento>(_alimentos);
                 IAlimento a = _alimentos.First(x => x.Nombre() == nombre);
                 Console.WriteLine($"-Se compró {a.Nombre()}-");
-                Notificar(a, TiposAcciones.Removido);
+                Notificar(a, TiposAcciones.Removido, comprador);
                 _alimentos.Remove(a);
+            }
+            catch (InvalidOperationException e)
+            {
+                Console.WriteLine($"Cliente {comprador}) se fue a casa sin su {nombre}");
             }
             catch (VoidException e)
             {

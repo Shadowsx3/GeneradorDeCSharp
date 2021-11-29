@@ -22,7 +22,8 @@ namespace Parcial2
             var frutilla = ff.FabricarAlimento(TiposAlimentos.Organico, "Frutilla");
             var agua = ff.FabricarAlimento(TiposAlimentos.Organico, "Agua");
             var chorizo = ff.FabricarAlimento(TiposAlimentos.Elaborado, "Chorizos");
-            var nose = ff.FabricarAlimento(TiposAlimentos.Procesado, "nose");
+            var panchos = ff.FabricarAlimento(TiposAlimentos.Elaborado, "Panchos");
+            var nose = ff.FabricarAlimento(TiposAlimentos.Procesado, "cosas");
             
             r1.AgregarAlimento(frutilla);
             r1.AgregarAlimento(agua);
@@ -31,12 +32,13 @@ namespace Parcial2
             r1.AgregarAlimento(nose);
             
             c2.RemoverAlimento("Frutilla");
-            c4.RemoverAlimento("Chorizos");
+            c4.RemoverAlimento("Agua");
+            r2.AgregarAlimento(panchos);
+            c4.RemoverAlimento("Panchos");
             r2.AgregarAlimento(chorizo);
             c4.RemoverAlimento("Chorizos");
             r2.AgregarAlimento(chorizo);
-            c4.RemoverAlimento("Chorizos");
-            r2.AgregarAlimento(chorizo);
+            c4.RemoverAlimento("Helicoptero");
         }
     }
 }

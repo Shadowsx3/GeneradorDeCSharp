@@ -30,5 +30,10 @@ namespace Parcial2.Clases
                     break;
             }
         }
+
+        public string GetNombre()
+        {
+            return Nombre;
+        }
     }
 }

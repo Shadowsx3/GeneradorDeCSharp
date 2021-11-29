@@ -11,7 +11,7 @@ namespace Parcial2.Clases
         public void RemoverAlimento(string nombre)
         {
             Console.WriteLine($"Cliente {Nombre}) Okey, compremos un poco de {nombre}");
-            Tienda.GetInstance().EliminarAlimento(nombre);
+            Tienda.GetInstance().EliminarAlimento(nombre, Nombre);
         }
 
         public Cliente(string nombre, List<string> gustos)
@@ -49,6 +49,10 @@ namespace Parcial2.Clases
         List<string> ICliente.Gustos()
         {
             return _gustos;
+        }
+        public string GetNombre()
+        {
+            return Nombre;
         }
     }
 }

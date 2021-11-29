@@ -4,5 +4,6 @@
     {
         
         void Avisar(IAlimento alimento, string accion);
+        string GetNombre();
     }
 }
