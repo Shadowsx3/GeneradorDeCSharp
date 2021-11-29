@@ -10,7 +10,7 @@ namespace Parcial2.Clases
 
         public void RemoverAlimento(string nombre)
         {
-            Console.WriteLine($"{Nombre}) Okey, compremos un poco de {nombre}");
+            Console.WriteLine($"Cliente {Nombre}) Okey, compremos un poco de {nombre}");
             Tienda.GetInstance().EliminarAlimento(nombre);
         }
 
@@ -38,10 +38,10 @@ namespace Parcial2.Clases
             switch (accion)
             {
                 case TiposAcciones.Agregado:
-                    Console.WriteLine($"{Nombre}) *Sabe que hay {alimento.Nombre()} porque le gusta {alimento.Tipo()}*");
+                    Console.WriteLine($"Cliente {Nombre}) *Sabe que hay {alimento.Nombre()} porque le gusta {alimento.Tipo()}*");
                     break;
                 case TiposAcciones.Removido:
-                    Console.WriteLine($"{Nombre}) *Sabe que compraron {alimento.Nombre()}* T-T");
+                    Console.WriteLine($"Cliente {Nombre}) *Sabe que compraron {alimento.Nombre()}* T-T");
                     break;
             }
         }
