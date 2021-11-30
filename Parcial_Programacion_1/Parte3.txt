@@ -1,0 +1,30 @@
+Parte III (40)
+Se desea un programa para un taller mecánico que permita ingresar una lista de
+clientes, junto con sus respectivos vehículos e información acerca de éstos.
+Cada uno de los clientes posee un identificador (cédula de identidad), nombre y
+apellido.
+Cada cliente tiene asociado uno o más vehículos, identificados por su matrícula. Los
+vehículos poseen como atributos modelo, marca, año, fecha de último
+mantenimiento, y fecha de próximo mantenimiento.
+En base a ese modelo, el programa debe poder:
+● Ingresar clientes.
+● Asociar uno o más vehículos a un cliente.
+● Buscar un cliente en particular (puede ser un método estático) e imprimir sus
+datos.
+● Listar los vehículos asociados a un cliente en particular (puede ser un método
+estático) junto con todos los datos del cliente y su vehículo.
+● Modificar la fecha de último mantenimiento para un vehículo (enviando número
+de matrícula), modificando así la fecha de próximo mantenimiento para dentro
+de cinco meses (fecha próxima = fecha último mantenimiento + 5).
+Crear una clase VehiculoAntiguo, que posea el mismo comportamiento que
+Vehiculo pero que al momento de modificar la fecha de último mantenimiento, la
+fecha de próximo mantenimiento sea para dentro de dos meses (fecha próxima = fecha
+último mantenimiento + 2).
+Agregar el atributo color y que el programa siga corriendo.
+No es necesario ingresar los datos de forma dinámica (aunque sí recomendado).
+Justificar las decisiones de diseño
+
+Diseño:
+-Se agregara a el vehiculo un atributo de cedula del cliente al que pertenece para poder asociarlos, esto dentro de otro constructor y en una función, de esta forma podemos asociarlos
+-Se usa print como abreviacion para Console.WriteLine() ...
+-Se usa input como un print y luego entrada de datos desde el teclado

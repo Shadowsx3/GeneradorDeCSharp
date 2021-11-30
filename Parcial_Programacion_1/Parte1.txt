@@ -1,0 +1,25 @@
+Parte I (30)
+1. ¿Qué es la programación orientada a objetos?
+2. Nombre tres características/propiedades de la programación orientada a
+objetos.
+3. ¿Qué es un objeto?
+4. ¿Qué es un constructor?
+5. ¿Qué es una clase?
+
+1.
+Es un paradigma de la programación que utiliza objetos como base, en la cual estos solicitan y brindan servicios entre si.
+
+2.
+La misma tiene 
+a)Herencia: Los objetos pueden heredar de otros atributos y metodos
+b)Polimorfismo: Las funciones y metodos pueden tener mas de una forma variando su firma para adaptarse
+c)Encapsulación: Todo tiene un nivel de acceso minimo y necesario para la seguridad del software
+
+3.
+Es una entidad, esta puede ser real o abstracta. Representada de acuerdo a contexto con atributos, metodos e identidad.
+
+4.
+Es una función que instancia atributos de el objeto en el que esta definido cuando este se está creando.
+
+5.
+Se lo puede pensar como una plantilla que representa lo que posee un objeto.

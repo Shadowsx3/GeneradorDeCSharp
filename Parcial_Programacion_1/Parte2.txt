@@ -1,0 +1,158 @@
+Parte II (30)
+Considerando los siguientes casos y bloques de código, indique cuáles funcionarían y
+cuáles no, justificando los casos incorrectos y qué cambios podrían hacerse para que
+funcione correctamente junto con las decisiones de diseño tomadas (éste cambio por
+tal motivo).
+
+public interface IVehiculo {
+double getVelocidadMaximaKmh();
+}
+public class Vehiculo : IVehiculo {
+//public string _marca;
+//public string _modelo;
+//Se cambian ambos atributos publicos a privados para un correcto encapsulamiento, en si, darle seguridad a la clase
+private string _marca;
+private string _modelo;
+private int _año;
+private double _velocidadMaxima; //ms
+public Vehiculo(
+string xMarca,
+string xModelo,
+int xAño
+)
+{
+this._marca = xMarca;
+//this.xModelo = _modelo;
+//Se cambia porque recibimos el valor desde xModelo y lo guardamos en _modelo
+this._modelo = xModelo;
+this._año = xAño;
+}
+//Se añade otro constructor que implemente la incializacion de velocidad maxima, segun el principio de extension
+public Vehiculo(
+string xMarca,
+string xModelo,
+int xAño, //se aniade una coma
+double xVelocidadMaxima
+//Se añade una inicializacion de velocidad maxima
+)
+{
+this._marca = xMarca;
+//this.xModelo = _modelo;
+//Se cambia porque recibimos el valor desde xModelo y lo guardamos en _modelo
+this._modelo = xModelo;
+this._año = xAño;
+this._velocidadMaxima = xVelocidadMaxima;
+//Se añade una inicializacion de velocidad maxima
+}
+//Añadimos un setter para ...settear(? el valor
+public void setModelo(string xModelo){
+	this._modelo = xModelo;
+}
+
+public double getVelocidadMaxima() {
+return this._velocidadMaxima;
+}
+//Se agrega esta funcion porque esta definida en la interface que implementa el objeto
+//Siguiendo además el "no modificar pero si expandir funcionalidades"
+public double getVelocidadMaximaKmh() {
+return this._velocidadMaxima*3.6;
+}
+}
+
+public class Camioneta : Vehiculo {
+//private double _tamañoCaja // m3;
+//El ; va antes del comentario, sino la sentencia no finaliza
+private double _tamañoCaja; // m3
+private bool _cajaCerrada;
+public Camioneta(
+string xMarca,
+string xModelo,
+int xAño,
+double xVelocidadMaxima,
+double xTamañoCaja,
+bool xCajaCerrada
+) : base(xMarca, xModelo, xAño, xVelocidadMaxima)
+//Se añade al constructor un llamado al constructor padre
+{
+//this._marca = xMarca;
+//this.xModelo = _modelo;
+//this._año = xAño;
+//this._velocidadMaxima = xVelocidadMaxima;
+//Se utiliza el constructor padre ya que este hereda de vehiculo, no necesitando settearlos
+this._tamañoCaja = xTamañoCaja;
+//this._cajaCerrada = this.xCajaCerrada;
+//this.xCajaCerrada no llevaria el this. porque no es un atributo que el objeto tendra
+this._cajaCerrada = xCajaCerrada;
+}
+//public void getTamañoCaja() {
+//void implica que no retorna, para retornar tamaño caja se debe usar el mismo tipo que se espcifica al declarar el atributo, siendo este un double
+public double getTamañoCaja() {
+return this._tamañoCaja;
+}
+//Implementamos un setter para tamaño caja
+public void setTamañoCaja(double xTamañoCaja) {
+this._tamañoCaja = xTamañoCaja;
+}
+//private void setCajaCerrada(string xCajaCerrada) {
+//Caja cerrada es un bool, no se puede almacenar un string en un bool de esta forma, es mejor recibir un bool de si lo es o no. 
+//Además, es una funcion, debe ser publica para poder usarla afuera de la clase
+public void setCajaCerrada(bool xCajaCerrada) {
+//this._cajaCerrada = this.xCajaCerrada;
+//No lleva this en xCajaCerrada porque no es un atributo de la clase
+this._cajaCerrada = xCajaCerrada;
+}
+}
+//------------------------------------------------------------------------------
+CASO 01 // IVehiculo objVehiculo = new IVehiculo(“Toyota”,
+“Hilux”, 2016);
+//Una interface no se puede instanciar, se instancia el objeto que la utiliza
+Vehiculo objVehiculo = new Vehiculo(“Toyota”, “Hilux”, 2016);
+//------------------------------------------------------------------------------
+CASO 02 // Vehiculo objVehiculo2 = new Vehiculo(“Fiat”, “Strada”, 2013, 200.05);
+//Funciona ya que añadimos previamente una incializacion para la velocidad en un constructor, la cual permite esto
+Vehiculo objVehiculo2 = new Vehiculo(“Fiat”, “Strada”, 2013, 200.05);
+//------------------------------------------------------------------------------
+CASO 03 // Vehiculo objVehiculo3 = new Vehiculo(“Suzuki”, “Maruti”, 2013);
+//Funciona bien
+Vehiculo objVehiculo3 = new Vehiculo(“Suzuki”, “Maruti”, 2013);
+//------------------------------------------------------------------------------
+Caso 04 // objVehiculo3.modelo = “Alto”;
+//Se usa el setter setModelo, no funciona de esta forma porque no es publico
+objVehiculo3.setModelo(“Alto”);
+//------------------------------------------------------------------------------
+Caso 05 // objVehiculo3.setModelo(“Alto 800”);
+//Funciona bien
+//------------------------------------------------------------------------------
+Caso 06 // objVehiculo3.setModelo(“Alto 800”);
+//Funciona bien too
+//------------------------------------------------------------------------------
+Caso 07 // Camioneta objCamioneta = new Vehiculo(“Volwkswagen”,“Suran”, 2014, 240, 40, true);
+//No funciona ya que se intenta crear un objeto de tipo vehiculo y no de tipo camioneta
+Camioneta objCamioneta = new Camioneta(“Volwkswagen”,“Suran”, 2014, 240, 40, true);
+//------------------------------------------------------------------------------
+Caso 08 // Vehiculo objCamioneta2 = new Camioneta(“Chevrolet”, “Captiva”, 2016, 250, 20, true);
+//Funciona bien ya que por una cualidad de la OOP un objeto que es padre de otro puede crearse
+// usando un objeto que herede de el, ya que este contendra todo lo necesario para crear el pade, then this estaria bien
+//Vehiculo objCamioneta2 = new Camioneta(“Chevrolet”, “Captiva”, 2016, 250, 20, true); pero supongo que quiere crear una camioneta
+Camioneta objCamioneta2 = new Camioneta(“Chevrolet”, “Captiva”, 2016, 250, 20, true);
+//------------------------------------------------------------------------------
+Caso 09 // objCamioneta2 .getTamañoCaja();
+//Cuando querermos acceder a una funcion de un objeto se tiene que usar punto al lado del objeto
+objCamioneta2.getTamañoCaja();
+//------------------------------------------------------------------------------
+Caso 10 // objCamioneta2 .setTamañoCaja(25);
+//Cuando querermos acceder a una funcion de un objeto se tiene que usar punto al lado del objeto
+objCamioneta2.setTamañoCaja(25);
+//------------------------------------------------------------------------------
+Caso 11 // string vKmh = objVehiculo3.getVelocidadMaximaKmh();
+//Se confundio y coloco string, se puede con una conversion explicita, pero supongo que quizo almacenar el valor en un double
+double vKmh = objVehiculo3.getVelocidadMaximaKmh();
+//------------------------------------------------------------------------------
+Caso 12 // objVehiculo3.setTamañoCaja(10);
+//Un vehiculo no tiene tamaño caja, se elimina la sentencia
+//------------------------------------------------------------------------------
+Caso 13 // objCamioneta2 .getVelocidadMaxima();
+//Cuando querermos acceder a una funcion de un objeto se tiene que usar punto al lado del objeto
+//Aparte de eso...solo se llama a la funcion, no se almacena el valor, guardemoslo en algun lado
+double velocidadMaximaobj2 = objCamioneta2.getVelocidadMaxima();
+//------------------------------------------------------------------------------
