@@ -68,6 +68,7 @@ namespace Parcial2.Clases
             }
             catch (InvalidOperationException e)
             {
+                Console.WriteLine($"Narrador) Ese dia no habia {nombre}");
                 Console.WriteLine($"Cliente {comprador}) se fue a casa sin su {nombre}");
             }
             catch (VoidException e)
