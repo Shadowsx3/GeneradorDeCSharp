@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Obligatorio.Clases.Animales;
 
 namespace Obligatorio.Clases
 {
@@ -6,14 +7,21 @@ namespace Obligatorio.Clases
     {
         private string _cedula;
         private string _nombre;
-        private List<Mascota> _mascotas;
+        private List<IMascota> _mascotas;
         public Dueño(string cedula, string nombre)
         {
             _cedula = cedula;
             _nombre = nombre;
-            _mascotas = new List<Mascota>();
+            _mascotas = new List<IMascota>();
         }
 
+        public void AgregarMascotas(List<IMascota> masc)
+        {
+            foreach (var a in masc)
+            {
+                _mascotas.Add(a);
+            }
+        }
         public string Cedula
         {
             get => _cedula;
@@ -26,7 +34,7 @@ namespace Obligatorio.Clases
             set => _nombre = value;
         }
 
-        public List<Mascota> Mascotas
+        public List<IMascota> Mascotas
         {
             get => _mascotas;
             set => _mascotas = value;

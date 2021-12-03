@@ -1,7 +1,4 @@
-﻿using System.Collections.Generic;
-using Obligatorio.Clases.Consultas;
-
-namespace Obligatorio.Clases
+﻿namespace Obligatorio.Clases.Animales
 {
     public class Mascota : IMascota
     {
@@ -38,6 +35,21 @@ namespace Obligatorio.Clases
         public virtual string getEspecie()
         {
             return "";
+        }
+
+        public string getCedula()
+        {
+            return _cedula;
+        }
+
+        public string getNombre()
+        {
+            return _nombre;
+        }
+
+        public string getRaza()
+        {
+            return _raza;
         }
     }
 }

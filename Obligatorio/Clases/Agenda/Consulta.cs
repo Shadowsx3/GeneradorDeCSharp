@@ -1,7 +1,6 @@
 ﻿using System;
-using Obligatorio.Clases.Consultas;
 
-namespace Obligatorio.Clases
+namespace Obligatorio.Clases.Agenda
 {
     public class Consulta : IConsulta
     {
@@ -24,6 +23,7 @@ namespace Obligatorio.Clases
             _cedulaMascotra = cedulaMascotra;
             _cedulaDueño = cedulaDueño;
         }
+        
 
         public int Costo
         {
@@ -76,6 +76,46 @@ namespace Obligatorio.Clases
         public virtual string getTipo()
         {
             return "";
+        }
+
+        int IConsulta.Costo()
+        {
+            return _costo;
+        }
+
+        string IConsulta.Descripcion()
+        {
+            return _descripcion;
+        }
+
+        DateTime IConsulta.Fecha()
+        {
+            return _fecha;
+        }
+
+        bool IConsulta.Pagada()
+        {
+            return _pagada;
+        }
+
+        public void setPagada(bool pagada)
+        {
+            _pagada = pagada;
+        }
+
+        string IConsulta.CedulaFuncionario()
+        {
+            return _cedulaFuncionario;
+        }
+
+        string IConsulta.CedulaDueño()
+        {
+            return _cedulaDueño;
+        }
+
+        string IConsulta.CedulaMascotra()
+        {
+            return _cedulaMascotra;
         }
     }
 }

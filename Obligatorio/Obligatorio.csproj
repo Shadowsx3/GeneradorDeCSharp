@@ -38,20 +38,24 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Clases\Agenda\AgendaFactory.cs" />
         <Compile Include="Clases\Animales\Gato.cs" />
+        <Compile Include="Clases\Animales\IMascota.cs" />
+        <Compile Include="Clases\Animales\Mascota.cs" />
+        <Compile Include="Clases\Animales\MascotaFactory.cs" />
         <Compile Include="Clases\Animales\Perro.cs" />
         <Compile Include="Clases\Animales\Rata.cs" />
         <Compile Include="Clases\Animales\TiposMascotas.cs" />
-        <Compile Include="Clases\Consulta.cs" />
-        <Compile Include="Clases\Consultas\Consultas.cs" />
-        <Compile Include="Clases\Consultas\IConsulta.cs" />
-        <Compile Include="Clases\Consultas\Intervencion.cs" />
-        <Compile Include="Clases\Consultas\TiposConsultas.cs" />
-        <Compile Include="Clases\Consultas\Tratamiento.cs" />
+        <Compile Include="Clases\Agenda\Consulta.cs" />
+        <Compile Include="Clases\Agenda\Consultas.cs" />
+        <Compile Include="Clases\Agenda\IConsulta.cs" />
+        <Compile Include="Clases\Agenda\Intervencion.cs" />
+        <Compile Include="Clases\Agenda\TiposConsultas.cs" />
+        <Compile Include="Clases\Agenda\Tratamiento.cs" />
         <Compile Include="Clases\Dueño.cs" />
-        <Compile Include="Clases\Funcionario.cs" />
-        <Compile Include="Clases\IMascota.cs" />
-        <Compile Include="Clases\Mascota.cs" />
+        <Compile Include="Clases\Empleados\Funcionario.cs" />
+        <Compile Include="Clases\Empleados\FuncionarioFactory.cs" />
+        <Compile Include="Clases\Empleados\TiposFuncionarios.cs" />
         <Compile Include="Clases\Patrones\Administrador.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />

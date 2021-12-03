@@ -1,0 +1,7 @@
+C:\Users\manue\Desktop\Final\GeneradorDeCSharp\Obligatorio\bin\Debug\Obligatorio.exe
+C:\Users\manue\Desktop\Final\GeneradorDeCSharp\Obligatorio\bin\Debug\Obligatorio.pdb
+C:\Users\manue\Desktop\Final\GeneradorDeCSharp\Obligatorio\obj\Debug\Obligatorio.csproj.AssemblyReference.cache
+C:\Users\manue\Desktop\Final\GeneradorDeCSharp\Obligatorio\obj\Debug\Obligatorio.csproj.SuggestedBindingRedirects.cache
+C:\Users\manue\Desktop\Final\GeneradorDeCSharp\Obligatorio\obj\Debug\Obligatorio.csproj.CoreCompileInputs.cache
+C:\Users\manue\Desktop\Final\GeneradorDeCSharp\Obligatorio\obj\Debug\Obligatorio.exe
+C:\Users\manue\Desktop\Final\GeneradorDeCSharp\Obligatorio\obj\Debug\Obligatorio.pdb

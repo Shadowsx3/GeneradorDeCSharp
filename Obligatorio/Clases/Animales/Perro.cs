@@ -7,7 +7,7 @@
             return TiposMascotas.Perro;
         }
 
-        public Perro(string nombre, string raza) : base(nombre, raza)
+        public Perro(string nombre, string raza, string cedula) : base(nombre, raza, cedula)
         {
         }
     }

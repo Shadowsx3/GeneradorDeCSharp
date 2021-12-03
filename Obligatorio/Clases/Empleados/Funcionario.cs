@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Obligatorio.Clases
+namespace Obligatorio.Clases.Empleados
 {
     public class Funcionario
     {
@@ -8,9 +8,9 @@ namespace Obligatorio.Clases
         private string _nombre;
         private string _cedula;
 
-        public Funcionario( string nombre, string cedula)
+        public Funcionario( string nombre, string cedula, List<string> funciones)
         {
-            _funciones = new List<string>();
+            _funciones = funciones;
             _nombre = nombre;
             _cedula = cedula;
         }
