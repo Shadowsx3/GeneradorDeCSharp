@@ -1,4 +1,6 @@
-﻿namespace PracticoNoObligatorio.Clases
+﻿using PracticoNoObligatorio.Clases.Persona;
+
+namespace PracticoNoObligatorio.Clases.Managers
 {
     public class PeopleFormer
     {
@@ -7,13 +9,13 @@
             IPersona p = null;
             switch (type)
             {
-                case "Cliente":
+                case TiposPersonas.Cliente:
                     p = new Cliente(name);
                     break;
-                case "Desarrollador":
+                case TiposPersonas.Desarrollador:
                     p = new Desarrollador(name);
                     break;
-                case "Administrador":
+                case TiposPersonas.Administador:
                     p = new Administador(name);
                     break;
             }

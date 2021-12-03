@@ -1,4 +1,6 @@
-﻿namespace PracticoNoObligatorio.Clases
+﻿using PracticoNoObligatorio.Clases.Tareas;
+
+namespace PracticoNoObligatorio.Clases.Persona
 {
     public interface ITrabajador
     {

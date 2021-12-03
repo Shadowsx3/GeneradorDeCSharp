@@ -1,4 +1,6 @@
-﻿namespace PracticoNoObligatorio.Clases
+﻿using PracticoNoObligatorio.Clases.Persona;
+
+namespace PracticoNoObligatorio.Clases.Tareas
 {
     public interface ITarea
     {

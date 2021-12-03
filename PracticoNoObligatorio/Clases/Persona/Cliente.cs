@@ -1,15 +1,16 @@
-﻿namespace PracticoNoObligatorio.Clases
+﻿using PracticoNoObligatorio.Clases.Managers;
+
+namespace PracticoNoObligatorio.Clases.Persona
 {
     public class Cliente: Persona
     {
         public Cliente(string nombre)
         {
-            _recibe = new string[] {"tarea no aprobada", "tarea finalizada"};
-            _tipo = "Cliente";
+            _recibe = new string[] {TiposAcciones.Aprobada, TiposAcciones.Finalizada};
             _nombre = nombre;
         }
 
-        public override void Update(Tarea tarea, string accion)
+        public override void Update(Tareas.Tarea tarea, string accion)
         {
             if (tarea.SugeridaPor == this)
             {
@@ -17,9 +18,13 @@
             }
         }
 
-        public void AñadirTarea(Tarea t)
+        public void AñadirTarea(Tareas.Tarea t)
         {
             SystemManager.GetInstance().AgregarTarea(t);
+        }
+        public override string Tipo()
+        {
+            return TiposPersonas.Cliente;
         }
     }
 }

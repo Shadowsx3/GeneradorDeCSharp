@@ -1,14 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using PracticoNoObligatorio.Clases.Persona;
+using PracticoNoObligatorio.Clases.Tareas;
 
-namespace PracticoNoObligatorio.Clases
+namespace PracticoNoObligatorio.Clases.Managers
 {
     public sealed class SystemManager : ISystemManager
     {
         private static SystemManager _instance;
-        private List<Tarea> _tareas = new List<Tarea>();
-        private List<IPersona> _personas = new List<IPersona>();
+        private List<Tarea> _tareas;
+        private List<IPersona> _personas;
 
         public List<Tarea> Tareas
         {
@@ -26,39 +28,30 @@ namespace PracticoNoObligatorio.Clases
         {
             _personas.Add(persona);
         }
-        private SystemManager(){}
+
+        private SystemManager()
+        {
+            _tareas = new List<Tarea>();
+            _personas = new List<IPersona>();
+        }
 
         public static SystemManager GetInstance()
         {
-            if (_instance == null)
-            {
-                _instance = new SystemManager();
-            }
-            return _instance;
+            return _instance ?? (_instance = new SystemManager());
         }
 
-        private void Notificar(Tarea t, string accion)
+        private void Notificar(Tarea tarea, string accion)
         {
             foreach (var p in _personas)
             {
-                p.Update(t, accion);
+              p.Update(tarea, accion);
             }
-        }
-
-        void ISystemManager.AgregarTarea(Tarea t)
-        {
-            AgregarTarea(t);
-        }
-
-        void ISystemManager.Notificar(Tarea id, string accion)
-        {
-            Notificar(id, accion);
         }
 
         public void AgregarTarea(Tarea t)
         {
             try{
-                Notificar(t, "nueva tarea");
+                Notificar(t, TiposAcciones.Nueva);
                 _tareas.Add(t);
             }
             catch
@@ -67,28 +60,38 @@ namespace PracticoNoObligatorio.Clases
             }
         }
 
-        void ISystemManager.RealizarTarea(Tarea tarea)
+        public void AddLPersona(List<IPersona> personas)
         {
-            RealizarTarea(tarea);
+            foreach (var p in personas)
+            {
+                _personas.Add(p);
+            }
         }
 
-        void ISystemManager.AceptarTarea(Tarea tarea, Desarrollador desarrollador)
+        public Tarea GetTarea(int n)
         {
-            AceptarTarea(tarea, desarrollador);
-        }
+            try
+            {
+                return _tareas.Count < n ? throw new NumException() : _tareas[n];
+            }
+            catch (NumException e)
+            {
+                Console.WriteLine("Error con el index");
+            }
+            catch
+            {
+                Console.WriteLine("Error desconocido");
+            }
 
-        void ISystemManager.CambiarAprobacion(Tarea tarea, bool aprobada)
-        {
-            CambiarAprobacion(tarea, aprobada);
+            return null;
         }
-
-        public void RealizarTarea(Tarea tarea)
+        public void RealizarTarea(Tareas.Tarea tarea)
         {
             try{
                 foreach (var t in _tareas.Where(t => t == tarea))
                 {
                     t.Realizada = true;
-                    Notificar(t, "tarea finalizada");
+                    Notificar(t, TiposAcciones.Finalizada);
                     break;
                 }
             }
@@ -121,7 +124,7 @@ namespace PracticoNoObligatorio.Clases
                 foreach (var t in _tareas.Where(t => t == tarea))
                 {
                     t.Aprobada = aprobada;
-                    Notificar(t, aprobada ? "tarea aprobada" : "tarea no aprobada");
+                    Notificar(t, aprobada ? TiposAcciones.Aprobada : TiposAcciones.Rechazada);
                     break;
                 }
             }

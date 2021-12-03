@@ -1,8 +1,8 @@
-﻿namespace PracticoNoObligatorio.Clases
+﻿namespace PracticoNoObligatorio.Clases.Persona
 {
     public interface IPersona
     {
-            void Update(Tarea tarea, string accion);
+            void Update(Tareas.Tarea tarea, string accion);
             string Tipo();
     }
 }
