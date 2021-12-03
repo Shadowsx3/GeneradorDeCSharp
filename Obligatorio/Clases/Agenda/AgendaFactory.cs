@@ -4,9 +4,9 @@ using Obligatorio.Clases.Animales;
 
 namespace Obligatorio.Clases.Agenda
 {
-    public class AgendaFactory
+    public static class AgendaFactory
     {
-        public IConsulta AgendarConsulta(Dueño d, IMascota m, string tipo, DateTime fecha, string funcionario)
+        public static IConsulta AgendarConsulta(Dueño d, IMascota m, string tipo, DateTime fecha, string funcionario)
         {
             IConsulta consulta = null;
             try

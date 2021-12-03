@@ -5,7 +5,7 @@ using Obligatorio.Clases;
 using Obligatorio.Clases.Agenda;
 using Obligatorio.Clases.Animales;
 using Obligatorio.Clases.Empleados;
-using Obligatorio.Clases.Patrones;
+using static Obligatorio.Clases.Patrones.Administrador;
 
 namespace Obligatorio
 {
@@ -25,9 +25,9 @@ namespace Obligatorio
             "Agendar consulta",
             "Pagar consulta"
         };
-        private static string cedulaFuncionario = "1";
-        private static string cedulaDueño = "1";
-        private static string cedulaMascota = "1";
+        private static string cedulaFuncionario = "";
+        private static string cedulaDueño = "";
+        private static string cedulaMascota = "";
         public static void Main(string[] args)
         {
             #region "Inicio"
@@ -46,10 +46,10 @@ namespace Obligatorio
             d.AgregarMascotas(lm);
             Dueño d1 = new Dueño("2", "Pedro1");
             d1.AgregarMascotas(lm2);
-            Administrador.GetInstance().Dueños = new List<Dueño>() {d, d1};
+            GetInstance().Dueños = new List<Dueño>() {d, d1};
             Funcionario f = FuncionarioFactory.CreateFuncionario(TiposFuncionarios.Todo,"LOLO");
             Funcionario f1 = FuncionarioFactory.CreateFuncionario(TiposFuncionarios.Consulta,"LOLa");
-            Administrador.GetInstance().Funcionarios = new List<Funcionario>() {f, f1};
+            GetInstance().Funcionarios = new List<Funcionario>() {f, f1};
             #endregion
             Console.WriteLine("Welcome a la veterinaria vet");
             while (true)
@@ -69,10 +69,10 @@ namespace Obligatorio
                     switch (opcion)
                     {
                         case "0":
-                            Administrador.GetInstance().MostrarFuncionarios();
+                            GetInstance().MostrarFuncionarios();
                             break;
                         case "1":
-                            Administrador.GetInstance().MostrarDueños();
+                            GetInstance().MostrarDueños();
                             break;
                         case "2":
                             if (cedulaDueño == "")
@@ -81,14 +81,14 @@ namespace Obligatorio
                                 break;
                             }
 
-                            Administrador.GetInstance().MostrarMascotas(cedulaDueño);
+                            GetInstance().MostrarMascotas(cedulaDueño);
                             break;
                         case "3":
                             Console.WriteLine("Ingrese la cedula del funcionario");
                             cedula = Console.ReadLine();
                             try
                             {
-                                cedulaFuncionario = Administrador.GetInstance().Funcionarios
+                                cedulaFuncionario = GetInstance().Funcionarios
                                     .First(x => x.Cedula == cedula)
                                     .Cedula;
                             }
@@ -103,7 +103,7 @@ namespace Obligatorio
                             cedula = Console.ReadLine();
                             try
                             {
-                                cedulaDueño = Administrador.GetInstance().Dueños.First(x => x.Cedula == cedula)
+                                cedulaDueño = GetInstance().Dueños.First(x => x.Cedula == cedula)
                                     .Cedula;
                             }
                             catch
@@ -123,7 +123,7 @@ namespace Obligatorio
                             cedula = Console.ReadLine();
                             try
                             {
-                                cedulaMascota = Administrador.GetInstance()
+                                cedulaMascota = GetInstance()
                                     .Dueños
                                     .First(x => x.Cedula == cedulaDueño)
                                     .Mascotas.First(x => x.getCedula() == cedula)
@@ -142,7 +142,7 @@ namespace Obligatorio
                                 break;
                             }
 
-                            Administrador.GetInstance().MostrarConsultas(cedulaFuncionario);
+                            GetInstance().MostrarConsultas(cedulaFuncionario);
                             break;
                         case "7":
                             Console.WriteLine("Que tipo de funcion busca?");
@@ -157,7 +157,7 @@ namespace Obligatorio
                                 break;
                             }
 
-                            Administrador.GetInstance().BuscarFuncionario(TiposFuncionarios.Todos[opciones]);
+                            GetInstance().BuscarFuncionario(TiposFuncionarios.Todos[opciones]);
                             break;
                         case "8":
                             if (cedulaDueño == "")
@@ -166,7 +166,7 @@ namespace Obligatorio
                                 break;
                             }
 
-                            Administrador.GetInstance().DeudasDueño(cedulaDueño);
+                            GetInstance().DeudasDueño(cedulaDueño);
                             break;
                         case "9":
                             if (cedulaMascota == "")
@@ -175,7 +175,7 @@ namespace Obligatorio
                                 break;
                             }
 
-                            Administrador.GetInstance().DeudasMascota(cedulaMascota);
+                            GetInstance().DeudasMascota(cedulaMascota);
                             break;
                         case "10":
                             if (cedulaMascota == "" || cedulaDueño == "" || cedulaFuncionario == "")
@@ -204,7 +204,7 @@ namespace Obligatorio
                             Console.WriteLine("Cada cuantos dias?");
                             int.TryParse(Console.ReadLine(), out var cantidadDias);
                             TimeSpan ts = new TimeSpan(cantidadDias, 0, 0, 0);
-                            Administrador.GetInstance().AgendarConsultas(cedulaDueño, cedulaMascota, tipo,
+                            GetInstance().AgendarConsultas(cedulaDueño, cedulaMascota, tipo,
                                 cedulaFuncionario, cantidad, fecha, ts);
                             break;
                         case "11":
@@ -216,7 +216,7 @@ namespace Obligatorio
 
                             Console.WriteLine("Ingrese el numero de la consulta");
                             int.TryParse(Console.ReadLine(), out var numeroConsulta);
-                            Administrador.GetInstance().PagarConsulta(numeroConsulta, cedulaDueño);
+                            GetInstance().PagarConsulta(numeroConsulta, cedulaDueño);
                             break;
                         default:
                             Console.WriteLine("Opcion no encontrada");

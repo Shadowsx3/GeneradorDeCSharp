@@ -21,7 +21,6 @@ namespace Obligatorio.Clases.Patrones
             return _instance ?? (_instance = new Administrador());
         }
         
-        private AgendaFactory _af = new AgendaFactory();
         private List<Funcionario> _funcionarios;
         private List<Dueño> _dueños;
         private List<IConsulta> _consultas;
@@ -84,7 +83,7 @@ namespace Obligatorio.Clases.Patrones
                 DateTime fecha = fechaInicial;
                 for (var i = 0; i < cantidad; i++)
                 {
-                    _consultas.Add(_af.AgendarConsulta(d, m, tipo, fecha, f.Cedula ));
+                    _consultas.Add(AgendaFactory.AgendarConsulta(d, m, tipo, fecha, f.Cedula ));
                     fecha = fecha.Add(tiempoEntreConsultas);
                 }
             }
