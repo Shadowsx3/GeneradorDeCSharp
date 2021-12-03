@@ -1,0 +1,23 @@
+¿Qué sucede cuando a un método le colocamos “void”?
+no retorna nada
+● ¿Qué modificadores de acceso existen en C# y cuáles son sus diferencias?
+private, todo se queda en esa clase
+protected, todo se queda en esa clase y los hijos
+public, cualquiera accede
+● ¿Qué es un constructor? ¿Por qué puedo tener varios?
+porque hay varias formas de instanciar y puede recibir distintos parametros,
+sirve para instanciar las propiedades durante la creacion de un objeto
+● ¿Qué son los getters y los setters? ¿A qué principio de la programación orientada a
+objetos está asociada?¿Hay otras formas de definirlos en C#?
+
+al principio de encapsulamiento, hay muchas formas y sirven para establecer y obtener propiedades
+ej:
+public string getCedula()
+        {
+            return _cedula;
+        }
+public List<IMascota> Mascotas
+        {
+            get => _mascotas;
+            set => _mascotas = value;}
+
